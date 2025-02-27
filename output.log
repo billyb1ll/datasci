@@ -1,0 +1,2101 @@
+nohup: ignoring input
+2025-02-27 08:27:18.616904: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-02-27 08:27:18.620699: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-02-27 08:27:18.630584: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1740644838.646601  678627 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1740644838.651323  678627 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-02-27 08:27:18.669303: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+data/Data/genres_original/disco/disco.00042.wav
+data/Data/genres_original/disco/disco.00024.wav
+data/Data/genres_original/disco/disco.00033.wav
+data/Data/genres_original/disco/disco.00026.wav
+data/Data/genres_original/disco/disco.00064.wav
+data/Data/genres_original/disco/disco.00002.wav
+data/Data/genres_original/disco/disco.00099.wav
+data/Data/genres_original/disco/disco.00059.wav
+data/Data/genres_original/disco/disco.00087.wav
+data/Data/genres_original/disco/disco.00006.wav
+data/Data/genres_original/disco/disco.00004.wav
+data/Data/genres_original/disco/disco.00034.wav
+data/Data/genres_original/disco/disco.00056.wav
+data/Data/genres_original/disco/disco.00083.wav
+data/Data/genres_original/disco/disco.00057.wav
+data/Data/genres_original/disco/disco.00011.wav
+data/Data/genres_original/disco/disco.00091.wav
+data/Data/genres_original/disco/disco.00073.wav
+data/Data/genres_original/disco/disco.00044.wav
+data/Data/genres_original/disco/disco.00005.wav
+data/Data/genres_original/disco/disco.00040.wav
+data/Data/genres_original/disco/disco.00014.wav
+data/Data/genres_original/disco/disco.00063.wav
+data/Data/genres_original/disco/disco.00013.wav
+data/Data/genres_original/disco/disco.00077.wav
+data/Data/genres_original/disco/disco.00031.wav
+data/Data/genres_original/disco/disco.00067.wav
+data/Data/genres_original/disco/disco.00085.wav
+data/Data/genres_original/disco/disco.00008.wav
+data/Data/genres_original/disco/disco.00032.wav
+data/Data/genres_original/disco/disco.00047.wav
+data/Data/genres_original/disco/disco.00035.wav
+data/Data/genres_original/disco/disco.00061.wav
+data/Data/genres_original/disco/disco.00027.wav
+data/Data/genres_original/disco/disco.00069.wav
+data/Data/genres_original/disco/disco.00025.wav
+data/Data/genres_original/disco/disco.00071.wav
+data/Data/genres_original/disco/disco.00016.wav
+data/Data/genres_original/disco/disco.00053.wav
+data/Data/genres_original/disco/disco.00074.wav
+data/Data/genres_original/disco/disco.00012.wav
+data/Data/genres_original/disco/disco.00065.wav
+data/Data/genres_original/disco/disco.00049.wav
+data/Data/genres_original/disco/disco.00039.wav
+data/Data/genres_original/disco/disco.00003.wav
+data/Data/genres_original/disco/disco.00081.wav
+data/Data/genres_original/disco/disco.00079.wav
+data/Data/genres_original/disco/disco.00078.wav
+data/Data/genres_original/disco/disco.00051.wav
+data/Data/genres_original/disco/disco.00068.wav
+data/Data/genres_original/disco/disco.00043.wav
+data/Data/genres_original/disco/disco.00021.wav
+data/Data/genres_original/disco/disco.00050.wav
+data/Data/genres_original/disco/disco.00019.wav
+data/Data/genres_original/disco/disco.00080.wav
+data/Data/genres_original/disco/disco.00098.wav
+data/Data/genres_original/disco/disco.00082.wav
+data/Data/genres_original/disco/disco.00029.wav
+data/Data/genres_original/disco/disco.00095.wav
+data/Data/genres_original/disco/disco.00000.wav
+data/Data/genres_original/disco/disco.00058.wav
+data/Data/genres_original/disco/disco.00094.wav
+data/Data/genres_original/disco/disco.00041.wav
+data/Data/genres_original/disco/disco.00075.wav
+data/Data/genres_original/disco/disco.00076.wav
+data/Data/genres_original/disco/disco.00096.wav
+data/Data/genres_original/disco/disco.00045.wav
+data/Data/genres_original/disco/disco.00084.wav
+data/Data/genres_original/disco/disco.00092.wav
+data/Data/genres_original/disco/disco.00090.wav
+data/Data/genres_original/disco/disco.00009.wav
+data/Data/genres_original/disco/disco.00023.wav
+data/Data/genres_original/disco/disco.00066.wav
+data/Data/genres_original/disco/disco.00052.wav
+data/Data/genres_original/disco/disco.00062.wav
+data/Data/genres_original/disco/disco.00046.wav
+data/Data/genres_original/disco/disco.00048.wav
+data/Data/genres_original/disco/disco.00054.wav
+data/Data/genres_original/disco/disco.00093.wav
+data/Data/genres_original/disco/disco.00088.wav
+data/Data/genres_original/disco/disco.00060.wav
+data/Data/genres_original/disco/disco.00017.wav
+data/Data/genres_original/disco/disco.00015.wav
+data/Data/genres_original/disco/disco.00097.wav
+data/Data/genres_original/disco/disco.00038.wav
+data/Data/genres_original/disco/disco.00022.wav
+data/Data/genres_original/disco/disco.00036.wav
+data/Data/genres_original/disco/disco.00055.wav
+data/Data/genres_original/disco/disco.00086.wav
+data/Data/genres_original/disco/disco.00028.wav
+data/Data/genres_original/disco/disco.00007.wav
+data/Data/genres_original/disco/disco.00070.wav
+data/Data/genres_original/disco/disco.00030.wav
+data/Data/genres_original/disco/disco.00020.wav
+data/Data/genres_original/disco/disco.00010.wav
+data/Data/genres_original/disco/disco.00037.wav
+data/Data/genres_original/disco/disco.00089.wav
+data/Data/genres_original/disco/disco.00072.wav
+data/Data/genres_original/disco/disco.00018.wav
+data/Data/genres_original/reggae/reggae.00010.wav
+data/Data/genres_original/reggae/reggae.00038.wav
+data/Data/genres_original/reggae/reggae.00084.wav
+data/Data/genres_original/reggae/reggae.00023.wav
+data/Data/genres_original/reggae/reggae.00056.wav
+data/Data/genres_original/reggae/reggae.00065.wav
+data/Data/genres_original/reggae/reggae.00072.wav
+data/Data/genres_original/reggae/reggae.00007.wav
+data/Data/genres_original/reggae/reggae.00011.wav
+data/Data/genres_original/reggae/reggae.00003.wav
+data/Data/genres_original/reggae/reggae.00094.wav
+data/Data/genres_original/reggae/reggae.00092.wav
+data/Data/genres_original/reggae/reggae.00093.wav
+data/Data/genres_original/reggae/reggae.00036.wav
+data/Data/genres_original/reggae/reggae.00028.wav
+data/Data/genres_original/reggae/reggae.00078.wav
+data/Data/genres_original/reggae/reggae.00013.wav
+data/Data/genres_original/reggae/reggae.00083.wav
+data/Data/genres_original/reggae/reggae.00027.wav
+data/Data/genres_original/reggae/reggae.00081.wav
+data/Data/genres_original/reggae/reggae.00016.wav
+data/Data/genres_original/reggae/reggae.00051.wav
+data/Data/genres_original/reggae/reggae.00022.wav
+data/Data/genres_original/reggae/reggae.00041.wav
+data/Data/genres_original/reggae/reggae.00053.wav
+data/Data/genres_original/reggae/reggae.00001.wav
+data/Data/genres_original/reggae/reggae.00066.wav
+data/Data/genres_original/reggae/reggae.00067.wav
+data/Data/genres_original/reggae/reggae.00076.wav
+data/Data/genres_original/reggae/reggae.00025.wav
+data/Data/genres_original/reggae/reggae.00006.wav
+data/Data/genres_original/reggae/reggae.00040.wav
+data/Data/genres_original/reggae/reggae.00089.wav
+data/Data/genres_original/reggae/reggae.00061.wav
+data/Data/genres_original/reggae/reggae.00018.wav
+data/Data/genres_original/reggae/reggae.00062.wav
+data/Data/genres_original/reggae/reggae.00037.wav
+data/Data/genres_original/reggae/reggae.00005.wav
+data/Data/genres_original/reggae/reggae.00042.wav
+data/Data/genres_original/reggae/reggae.00047.wav
+data/Data/genres_original/reggae/reggae.00055.wav
+data/Data/genres_original/reggae/reggae.00035.wav
+data/Data/genres_original/reggae/reggae.00057.wav
+data/Data/genres_original/reggae/reggae.00085.wav
+data/Data/genres_original/reggae/reggae.00050.wav
+data/Data/genres_original/reggae/reggae.00074.wav
+data/Data/genres_original/reggae/reggae.00075.wav
+data/Data/genres_original/reggae/reggae.00090.wav
+data/Data/genres_original/reggae/reggae.00033.wav
+data/Data/genres_original/reggae/reggae.00024.wav
+data/Data/genres_original/reggae/reggae.00032.wav
+data/Data/genres_original/reggae/reggae.00031.wav
+data/Data/genres_original/reggae/reggae.00030.wav
+data/Data/genres_original/reggae/reggae.00046.wav
+data/Data/genres_original/reggae/reggae.00098.wav
+data/Data/genres_original/reggae/reggae.00071.wav
+data/Data/genres_original/reggae/reggae.00068.wav
+data/Data/genres_original/reggae/reggae.00008.wav
+data/Data/genres_original/reggae/reggae.00080.wav
+data/Data/genres_original/reggae/reggae.00064.wav
+data/Data/genres_original/reggae/reggae.00099.wav
+data/Data/genres_original/reggae/reggae.00043.wav
+data/Data/genres_original/reggae/reggae.00082.wav
+data/Data/genres_original/reggae/reggae.00091.wav
+data/Data/genres_original/reggae/reggae.00020.wav
+data/Data/genres_original/reggae/reggae.00097.wav
+data/Data/genres_original/reggae/reggae.00044.wav
+data/Data/genres_original/reggae/reggae.00002.wav
+data/Data/genres_original/reggae/reggae.00021.wav
+data/Data/genres_original/reggae/reggae.00069.wav
+data/Data/genres_original/reggae/reggae.00059.wav
+data/Data/genres_original/reggae/reggae.00014.wav
+data/Data/genres_original/reggae/reggae.00095.wav
+data/Data/genres_original/reggae/reggae.00015.wav
+data/Data/genres_original/reggae/reggae.00060.wav
+data/Data/genres_original/reggae/reggae.00039.wav
+data/Data/genres_original/reggae/reggae.00049.wav
+data/Data/genres_original/reggae/reggae.00087.wav
+data/Data/genres_original/reggae/reggae.00070.wav
+data/Data/genres_original/reggae/reggae.00052.wav
+data/Data/genres_original/reggae/reggae.00019.wav
+data/Data/genres_original/reggae/reggae.00096.wav
+data/Data/genres_original/reggae/reggae.00079.wav
+data/Data/genres_original/reggae/reggae.00054.wav
+data/Data/genres_original/reggae/reggae.00017.wav
+data/Data/genres_original/reggae/reggae.00029.wav
+data/Data/genres_original/reggae/reggae.00058.wav
+data/Data/genres_original/reggae/reggae.00073.wav
+data/Data/genres_original/reggae/reggae.00004.wav
+data/Data/genres_original/reggae/reggae.00048.wav
+data/Data/genres_original/reggae/reggae.00034.wav
+data/Data/genres_original/reggae/reggae.00045.wav
+data/Data/genres_original/reggae/reggae.00077.wav
+data/Data/genres_original/reggae/reggae.00012.wav
+data/Data/genres_original/reggae/reggae.00009.wav
+data/Data/genres_original/reggae/reggae.00063.wav
+data/Data/genres_original/reggae/reggae.00026.wav
+data/Data/genres_original/reggae/reggae.00088.wav
+data/Data/genres_original/reggae/reggae.00000.wav
+data/Data/genres_original/reggae/reggae.00086.wav
+data/Data/genres_original/jazz/jazz.00008.wav
+data/Data/genres_original/jazz/jazz.00045.wav
+data/Data/genres_original/jazz/jazz.00027.wav
+data/Data/genres_original/jazz/jazz.00085.wav
+data/Data/genres_original/jazz/jazz.00079.wav
+data/Data/genres_original/jazz/jazz.00067.wav
+data/Data/genres_original/jazz/jazz.00080.wav
+data/Data/genres_original/jazz/jazz.00078.wav
+data/Data/genres_original/jazz/jazz.00086.wav
+data/Data/genres_original/jazz/jazz.00074.wav
+data/Data/genres_original/jazz/jazz.00068.wav
+data/Data/genres_original/jazz/jazz.00015.wav
+data/Data/genres_original/jazz/jazz.00053.wav
+data/Data/genres_original/jazz/jazz.00095.wav
+data/Data/genres_original/jazz/jazz.00002.wav
+data/Data/genres_original/jazz/jazz.00041.wav
+data/Data/genres_original/jazz/jazz.00021.wav
+data/Data/genres_original/jazz/jazz.00011.wav
+data/Data/genres_original/jazz/jazz.00091.wav
+data/Data/genres_original/jazz/jazz.00089.wav
+data/Data/genres_original/jazz/jazz.00007.wav
+data/Data/genres_original/jazz/jazz.00084.wav
+data/Data/genres_original/jazz/jazz.00034.wav
+data/Data/genres_original/jazz/jazz.00069.wav
+data/Data/genres_original/jazz/jazz.00039.wav
+data/Data/genres_original/jazz/jazz.00018.wav
+data/Data/genres_original/jazz/jazz.00019.wav
+data/Data/genres_original/jazz/jazz.00075.wav
+data/Data/genres_original/jazz/jazz.00060.wav
+data/Data/genres_original/jazz/jazz.00014.wav
+data/Data/genres_original/jazz/jazz.00062.wav
+data/Data/genres_original/jazz/jazz.00030.wav
+data/Data/genres_original/jazz/jazz.00020.wav
+data/Data/genres_original/jazz/jazz.00071.wav
+data/Data/genres_original/jazz/jazz.00077.wav
+data/Data/genres_original/jazz/jazz.00088.wav
+data/Data/genres_original/jazz/jazz.00040.wav
+data/Data/genres_original/jazz/jazz.00098.wav
+data/Data/genres_original/jazz/jazz.00087.wav
+data/Data/genres_original/jazz/jazz.00004.wav
+data/Data/genres_original/jazz/jazz.00035.wav
+data/Data/genres_original/jazz/jazz.00099.wav
+data/Data/genres_original/jazz/jazz.00097.wav
+data/Data/genres_original/jazz/jazz.00056.wav
+data/Data/genres_original/jazz/jazz.00083.wav
+data/Data/genres_original/jazz/jazz.00023.wav
+data/Data/genres_original/jazz/jazz.00032.wav
+data/Data/genres_original/jazz/jazz.00001.wav
+data/Data/genres_original/jazz/jazz.00009.wav
+data/Data/genres_original/jazz/jazz.00070.wav
+data/Data/genres_original/jazz/jazz.00050.wav
+data/Data/genres_original/jazz/jazz.00024.wav
+data/Data/genres_original/jazz/jazz.00057.wav
+data/Data/genres_original/jazz/jazz.00031.wav
+data/Data/genres_original/jazz/jazz.00048.wav
+data/Data/genres_original/jazz/jazz.00026.wav
+data/Data/genres_original/jazz/jazz.00090.wav
+data/Data/genres_original/jazz/jazz.00052.wav
+data/Data/genres_original/jazz/jazz.00064.wav
+data/Data/genres_original/jazz/jazz.00042.wav
+data/Data/genres_original/jazz/jazz.00013.wav
+data/Data/genres_original/jazz/jazz.00016.wav
+data/Data/genres_original/jazz/jazz.00044.wav
+data/Data/genres_original/jazz/jazz.00065.wav
+data/Data/genres_original/jazz/jazz.00076.wav
+data/Data/genres_original/jazz/jazz.00066.wav
+data/Data/genres_original/jazz/jazz.00022.wav
+data/Data/genres_original/jazz/jazz.00012.wav
+data/Data/genres_original/jazz/jazz.00073.wav
+data/Data/genres_original/jazz/jazz.00055.wav
+data/Data/genres_original/jazz/jazz.00061.wav
+data/Data/genres_original/jazz/jazz.00033.wav
+data/Data/genres_original/jazz/jazz.00017.wav
+data/Data/genres_original/jazz/jazz.00049.wav
+data/Data/genres_original/jazz/jazz.00029.wav
+data/Data/genres_original/jazz/jazz.00082.wav
+data/Data/genres_original/jazz/jazz.00093.wav
+data/Data/genres_original/jazz/jazz.00081.wav
+data/Data/genres_original/jazz/jazz.00025.wav
+data/Data/genres_original/jazz/jazz.00010.wav
+data/Data/genres_original/jazz/jazz.00005.wav
+data/Data/genres_original/jazz/jazz.00063.wav
+data/Data/genres_original/jazz/jazz.00072.wav
+data/Data/genres_original/jazz/jazz.00038.wav
+data/Data/genres_original/jazz/jazz.00092.wav
+data/Data/genres_original/jazz/jazz.00094.wav
+data/Data/genres_original/jazz/jazz.00054.wav
+data/Data/genres_original/jazz/jazz.00047.wav
+data/Data/genres_original/jazz/jazz.00043.wav
+data/Data/genres_original/jazz/jazz.00096.wav
+data/Data/genres_original/jazz/jazz.00003.wav
+data/Data/genres_original/jazz/jazz.00058.wav
+data/Data/genres_original/jazz/jazz.00006.wav
+data/Data/genres_original/jazz/jazz.00028.wav
+data/Data/genres_original/jazz/jazz.00046.wav
+data/Data/genres_original/jazz/jazz.00037.wav
+data/Data/genres_original/jazz/jazz.00051.wav
+data/Data/genres_original/jazz/jazz.00059.wav
+data/Data/genres_original/jazz/jazz.00036.wav
+data/Data/genres_original/jazz/jazz.00000.wav
+data/Data/genres_original/pop/pop.00036.wav
+data/Data/genres_original/pop/pop.00048.wav
+data/Data/genres_original/pop/pop.00061.wav
+data/Data/genres_original/pop/pop.00097.wav
+data/Data/genres_original/pop/pop.00049.wav
+data/Data/genres_original/pop/pop.00009.wav
+data/Data/genres_original/pop/pop.00027.wav
+data/Data/genres_original/pop/pop.00039.wav
+data/Data/genres_original/pop/pop.00092.wav
+data/Data/genres_original/pop/pop.00006.wav
+data/Data/genres_original/pop/pop.00044.wav
+data/Data/genres_original/pop/pop.00099.wav
+data/Data/genres_original/pop/pop.00046.wav
+data/Data/genres_original/pop/pop.00037.wav
+data/Data/genres_original/pop/pop.00066.wav
+data/Data/genres_original/pop/pop.00004.wav
+data/Data/genres_original/pop/pop.00083.wav
+data/Data/genres_original/pop/pop.00010.wav
+data/Data/genres_original/pop/pop.00084.wav
+data/Data/genres_original/pop/pop.00043.wav
+data/Data/genres_original/pop/pop.00055.wav
+data/Data/genres_original/pop/pop.00024.wav
+data/Data/genres_original/pop/pop.00071.wav
+data/Data/genres_original/pop/pop.00052.wav
+data/Data/genres_original/pop/pop.00038.wav
+data/Data/genres_original/pop/pop.00041.wav
+data/Data/genres_original/pop/pop.00058.wav
+data/Data/genres_original/pop/pop.00077.wav
+data/Data/genres_original/pop/pop.00063.wav
+data/Data/genres_original/pop/pop.00062.wav
+data/Data/genres_original/pop/pop.00080.wav
+data/Data/genres_original/pop/pop.00086.wav
+data/Data/genres_original/pop/pop.00034.wav
+data/Data/genres_original/pop/pop.00059.wav
+data/Data/genres_original/pop/pop.00021.wav
+data/Data/genres_original/pop/pop.00026.wav
+data/Data/genres_original/pop/pop.00079.wav
+data/Data/genres_original/pop/pop.00073.wav
+data/Data/genres_original/pop/pop.00013.wav
+data/Data/genres_original/pop/pop.00005.wav
+data/Data/genres_original/pop/pop.00078.wav
+data/Data/genres_original/pop/pop.00098.wav
+data/Data/genres_original/pop/pop.00017.wav
+data/Data/genres_original/pop/pop.00093.wav
+data/Data/genres_original/pop/pop.00054.wav
+data/Data/genres_original/pop/pop.00050.wav
+data/Data/genres_original/pop/pop.00094.wav
+data/Data/genres_original/pop/pop.00045.wav
+data/Data/genres_original/pop/pop.00023.wav
+data/Data/genres_original/pop/pop.00074.wav
+data/Data/genres_original/pop/pop.00056.wav
+data/Data/genres_original/pop/pop.00019.wav
+data/Data/genres_original/pop/pop.00075.wav
+data/Data/genres_original/pop/pop.00090.wav
+data/Data/genres_original/pop/pop.00007.wav
+data/Data/genres_original/pop/pop.00029.wav
+data/Data/genres_original/pop/pop.00070.wav
+data/Data/genres_original/pop/pop.00015.wav
+data/Data/genres_original/pop/pop.00087.wav
+data/Data/genres_original/pop/pop.00088.wav
+data/Data/genres_original/pop/pop.00076.wav
+data/Data/genres_original/pop/pop.00031.wav
+data/Data/genres_original/pop/pop.00000.wav
+data/Data/genres_original/pop/pop.00025.wav
+data/Data/genres_original/pop/pop.00028.wav
+data/Data/genres_original/pop/pop.00065.wav
+data/Data/genres_original/pop/pop.00008.wav
+data/Data/genres_original/pop/pop.00035.wav
+data/Data/genres_original/pop/pop.00042.wav
+data/Data/genres_original/pop/pop.00053.wav
+data/Data/genres_original/pop/pop.00040.wav
+data/Data/genres_original/pop/pop.00069.wav
+data/Data/genres_original/pop/pop.00032.wav
+data/Data/genres_original/pop/pop.00016.wav
+data/Data/genres_original/pop/pop.00081.wav
+data/Data/genres_original/pop/pop.00067.wav
+data/Data/genres_original/pop/pop.00089.wav
+data/Data/genres_original/pop/pop.00060.wav
+data/Data/genres_original/pop/pop.00095.wav
+data/Data/genres_original/pop/pop.00051.wav
+data/Data/genres_original/pop/pop.00082.wav
+data/Data/genres_original/pop/pop.00011.wav
+data/Data/genres_original/pop/pop.00001.wav
+data/Data/genres_original/pop/pop.00085.wav
+data/Data/genres_original/pop/pop.00014.wav
+data/Data/genres_original/pop/pop.00018.wav
+data/Data/genres_original/pop/pop.00064.wav
+data/Data/genres_original/pop/pop.00012.wav
+data/Data/genres_original/pop/pop.00002.wav
+data/Data/genres_original/pop/pop.00096.wav
+data/Data/genres_original/pop/pop.00072.wav
+data/Data/genres_original/pop/pop.00057.wav
+data/Data/genres_original/pop/pop.00030.wav
+data/Data/genres_original/pop/pop.00068.wav
+data/Data/genres_original/pop/pop.00047.wav
+data/Data/genres_original/pop/pop.00020.wav
+data/Data/genres_original/pop/pop.00033.wav
+data/Data/genres_original/pop/pop.00022.wav
+data/Data/genres_original/pop/pop.00091.wav
+data/Data/genres_original/rock/rock.00044.wav
+data/Data/genres_original/rock/rock.00006.wav
+data/Data/genres_original/rock/rock.00000.wav
+data/Data/genres_original/rock/rock.00046.wav
+data/Data/genres_original/rock/rock.00041.wav
+data/Data/genres_original/rock/rock.00054.wav
+data/Data/genres_original/rock/rock.00012.wav
+data/Data/genres_original/rock/rock.00095.wav
+data/Data/genres_original/rock/rock.00097.wav
+data/Data/genres_original/rock/rock.00073.wav
+data/Data/genres_original/rock/rock.00014.wav
+data/Data/genres_original/rock/rock.00076.wav
+data/Data/genres_original/rock/rock.00079.wav
+data/Data/genres_original/rock/rock.00099.wav
+data/Data/genres_original/rock/rock.00077.wav
+data/Data/genres_original/rock/rock.00020.wav
+data/Data/genres_original/rock/rock.00004.wav
+data/Data/genres_original/rock/rock.00023.wav
+data/Data/genres_original/rock/rock.00013.wav
+data/Data/genres_original/rock/rock.00062.wav
+data/Data/genres_original/rock/rock.00043.wav
+data/Data/genres_original/rock/rock.00015.wav
+data/Data/genres_original/rock/rock.00007.wav
+data/Data/genres_original/rock/rock.00030.wav
+data/Data/genres_original/rock/rock.00052.wav
+data/Data/genres_original/rock/rock.00075.wav
+data/Data/genres_original/rock/rock.00094.wav
+data/Data/genres_original/rock/rock.00003.wav
+data/Data/genres_original/rock/rock.00065.wav
+data/Data/genres_original/rock/rock.00063.wav
+data/Data/genres_original/rock/rock.00069.wav
+data/Data/genres_original/rock/rock.00039.wav
+data/Data/genres_original/rock/rock.00057.wav
+data/Data/genres_original/rock/rock.00034.wav
+data/Data/genres_original/rock/rock.00059.wav
+data/Data/genres_original/rock/rock.00066.wav
+data/Data/genres_original/rock/rock.00029.wav
+data/Data/genres_original/rock/rock.00037.wav
+data/Data/genres_original/rock/rock.00016.wav
+data/Data/genres_original/rock/rock.00032.wav
+data/Data/genres_original/rock/rock.00009.wav
+data/Data/genres_original/rock/rock.00053.wav
+data/Data/genres_original/rock/rock.00089.wav
+data/Data/genres_original/rock/rock.00028.wav
+data/Data/genres_original/rock/rock.00024.wav
+data/Data/genres_original/rock/rock.00064.wav
+data/Data/genres_original/rock/rock.00027.wav
+data/Data/genres_original/rock/rock.00035.wav
+data/Data/genres_original/rock/rock.00002.wav
+data/Data/genres_original/rock/rock.00098.wav
+data/Data/genres_original/rock/rock.00056.wav
+data/Data/genres_original/rock/rock.00033.wav
+data/Data/genres_original/rock/rock.00001.wav
+data/Data/genres_original/rock/rock.00074.wav
+data/Data/genres_original/rock/rock.00083.wav
+data/Data/genres_original/rock/rock.00021.wav
+data/Data/genres_original/rock/rock.00072.wav
+data/Data/genres_original/rock/rock.00091.wav
+data/Data/genres_original/rock/rock.00088.wav
+data/Data/genres_original/rock/rock.00005.wav
+data/Data/genres_original/rock/rock.00087.wav
+data/Data/genres_original/rock/rock.00042.wav
+data/Data/genres_original/rock/rock.00078.wav
+data/Data/genres_original/rock/rock.00049.wav
+data/Data/genres_original/rock/rock.00010.wav
+data/Data/genres_original/rock/rock.00070.wav
+data/Data/genres_original/rock/rock.00085.wav
+data/Data/genres_original/rock/rock.00050.wav
+data/Data/genres_original/rock/rock.00022.wav
+data/Data/genres_original/rock/rock.00086.wav
+data/Data/genres_original/rock/rock.00025.wav
+data/Data/genres_original/rock/rock.00017.wav
+data/Data/genres_original/rock/rock.00068.wav
+data/Data/genres_original/rock/rock.00090.wav
+data/Data/genres_original/rock/rock.00038.wav
+data/Data/genres_original/rock/rock.00026.wav
+data/Data/genres_original/rock/rock.00055.wav
+data/Data/genres_original/rock/rock.00093.wav
+data/Data/genres_original/rock/rock.00040.wav
+data/Data/genres_original/rock/rock.00019.wav
+data/Data/genres_original/rock/rock.00081.wav
+data/Data/genres_original/rock/rock.00036.wav
+data/Data/genres_original/rock/rock.00011.wav
+data/Data/genres_original/rock/rock.00018.wav
+data/Data/genres_original/rock/rock.00047.wav
+data/Data/genres_original/rock/rock.00080.wav
+data/Data/genres_original/rock/rock.00082.wav
+data/Data/genres_original/rock/rock.00067.wav
+data/Data/genres_original/rock/rock.00058.wav
+data/Data/genres_original/rock/rock.00061.wav
+data/Data/genres_original/rock/rock.00031.wav
+data/Data/genres_original/rock/rock.00096.wav
+data/Data/genres_original/rock/rock.00092.wav
+data/Data/genres_original/rock/rock.00008.wav
+data/Data/genres_original/rock/rock.00071.wav
+data/Data/genres_original/rock/rock.00048.wav
+data/Data/genres_original/rock/rock.00084.wav
+data/Data/genres_original/rock/rock.00051.wav
+data/Data/genres_original/rock/rock.00060.wav
+data/Data/genres_original/rock/rock.00045.wav
+data/Data/genres_original/hiphop/hiphop.00056.wav
+data/Data/genres_original/hiphop/hiphop.00023.wav
+data/Data/genres_original/hiphop/hiphop.00067.wav
+data/Data/genres_original/hiphop/hiphop.00099.wav
+data/Data/genres_original/hiphop/hiphop.00034.wav
+data/Data/genres_original/hiphop/hiphop.00092.wav
+data/Data/genres_original/hiphop/hiphop.00090.wav
+data/Data/genres_original/hiphop/hiphop.00080.wav
+data/Data/genres_original/hiphop/hiphop.00054.wav
+data/Data/genres_original/hiphop/hiphop.00026.wav
+data/Data/genres_original/hiphop/hiphop.00011.wav
+data/Data/genres_original/hiphop/hiphop.00051.wav
+data/Data/genres_original/hiphop/hiphop.00084.wav
+data/Data/genres_original/hiphop/hiphop.00070.wav
+data/Data/genres_original/hiphop/hiphop.00020.wav
+data/Data/genres_original/hiphop/hiphop.00048.wav
+data/Data/genres_original/hiphop/hiphop.00055.wav
+data/Data/genres_original/hiphop/hiphop.00024.wav
+data/Data/genres_original/hiphop/hiphop.00077.wav
+data/Data/genres_original/hiphop/hiphop.00030.wav
+data/Data/genres_original/hiphop/hiphop.00091.wav
+data/Data/genres_original/hiphop/hiphop.00001.wav
+data/Data/genres_original/hiphop/hiphop.00072.wav
+data/Data/genres_original/hiphop/hiphop.00063.wav
+data/Data/genres_original/hiphop/hiphop.00010.wav
+data/Data/genres_original/hiphop/hiphop.00058.wav
+data/Data/genres_original/hiphop/hiphop.00073.wav
+data/Data/genres_original/hiphop/hiphop.00022.wav
+data/Data/genres_original/hiphop/hiphop.00032.wav
+data/Data/genres_original/hiphop/hiphop.00093.wav
+data/Data/genres_original/hiphop/hiphop.00082.wav
+data/Data/genres_original/hiphop/hiphop.00040.wav
+data/Data/genres_original/hiphop/hiphop.00035.wav
+data/Data/genres_original/hiphop/hiphop.00025.wav
+data/Data/genres_original/hiphop/hiphop.00017.wav
+data/Data/genres_original/hiphop/hiphop.00003.wav
+data/Data/genres_original/hiphop/hiphop.00041.wav
+data/Data/genres_original/hiphop/hiphop.00016.wav
+data/Data/genres_original/hiphop/hiphop.00061.wav
+data/Data/genres_original/hiphop/hiphop.00004.wav
+data/Data/genres_original/hiphop/hiphop.00018.wav
+data/Data/genres_original/hiphop/hiphop.00042.wav
+data/Data/genres_original/hiphop/hiphop.00075.wav
+data/Data/genres_original/hiphop/hiphop.00087.wav
+data/Data/genres_original/hiphop/hiphop.00085.wav
+data/Data/genres_original/hiphop/hiphop.00015.wav
+data/Data/genres_original/hiphop/hiphop.00014.wav
+data/Data/genres_original/hiphop/hiphop.00088.wav
+data/Data/genres_original/hiphop/hiphop.00007.wav
+data/Data/genres_original/hiphop/hiphop.00008.wav
+data/Data/genres_original/hiphop/hiphop.00096.wav
+data/Data/genres_original/hiphop/hiphop.00050.wav
+data/Data/genres_original/hiphop/hiphop.00019.wav
+data/Data/genres_original/hiphop/hiphop.00043.wav
+data/Data/genres_original/hiphop/hiphop.00039.wav
+data/Data/genres_original/hiphop/hiphop.00037.wav
+data/Data/genres_original/hiphop/hiphop.00038.wav
+data/Data/genres_original/hiphop/hiphop.00013.wav
+data/Data/genres_original/hiphop/hiphop.00059.wav
+data/Data/genres_original/hiphop/hiphop.00064.wav
+data/Data/genres_original/hiphop/hiphop.00069.wav
+data/Data/genres_original/hiphop/hiphop.00081.wav
+data/Data/genres_original/hiphop/hiphop.00068.wav
+data/Data/genres_original/hiphop/hiphop.00057.wav
+data/Data/genres_original/hiphop/hiphop.00078.wav
+data/Data/genres_original/hiphop/hiphop.00094.wav
+data/Data/genres_original/hiphop/hiphop.00002.wav
+data/Data/genres_original/hiphop/hiphop.00089.wav
+data/Data/genres_original/hiphop/hiphop.00006.wav
+data/Data/genres_original/hiphop/hiphop.00045.wav
+data/Data/genres_original/hiphop/hiphop.00044.wav
+data/Data/genres_original/hiphop/hiphop.00012.wav
+data/Data/genres_original/hiphop/hiphop.00060.wav
+data/Data/genres_original/hiphop/hiphop.00066.wav
+data/Data/genres_original/hiphop/hiphop.00052.wav
+data/Data/genres_original/hiphop/hiphop.00083.wav
+data/Data/genres_original/hiphop/hiphop.00036.wav
+data/Data/genres_original/hiphop/hiphop.00027.wav
+data/Data/genres_original/hiphop/hiphop.00047.wav
+data/Data/genres_original/hiphop/hiphop.00009.wav
+data/Data/genres_original/hiphop/hiphop.00098.wav
+data/Data/genres_original/hiphop/hiphop.00071.wav
+data/Data/genres_original/hiphop/hiphop.00053.wav
+data/Data/genres_original/hiphop/hiphop.00074.wav
+data/Data/genres_original/hiphop/hiphop.00046.wav
+data/Data/genres_original/hiphop/hiphop.00095.wav
+data/Data/genres_original/hiphop/hiphop.00031.wav
+data/Data/genres_original/hiphop/hiphop.00033.wav
+data/Data/genres_original/hiphop/hiphop.00029.wav
+data/Data/genres_original/hiphop/hiphop.00086.wav
+data/Data/genres_original/hiphop/hiphop.00005.wav
+data/Data/genres_original/hiphop/hiphop.00097.wav
+data/Data/genres_original/hiphop/hiphop.00079.wav
+data/Data/genres_original/hiphop/hiphop.00076.wav
+data/Data/genres_original/hiphop/hiphop.00000.wav
+data/Data/genres_original/hiphop/hiphop.00049.wav
+data/Data/genres_original/hiphop/hiphop.00028.wav
+data/Data/genres_original/hiphop/hiphop.00065.wav
+data/Data/genres_original/hiphop/hiphop.00021.wav
+data/Data/genres_original/hiphop/hiphop.00062.wav
+data/Data/genres_original/classical/classical.00090.wav
+data/Data/genres_original/classical/classical.00059.wav
+data/Data/genres_original/classical/classical.00067.wav
+data/Data/genres_original/classical/classical.00061.wav
+data/Data/genres_original/classical/classical.00058.wav
+data/Data/genres_original/classical/classical.00094.wav
+data/Data/genres_original/classical/classical.00007.wav
+data/Data/genres_original/classical/classical.00047.wav
+data/Data/genres_original/classical/classical.00008.wav
+data/Data/genres_original/classical/classical.00043.wav
+data/Data/genres_original/classical/classical.00078.wav
+data/Data/genres_original/classical/classical.00076.wav
+data/Data/genres_original/classical/classical.00003.wav
+data/Data/genres_original/classical/classical.00021.wav
+data/Data/genres_original/classical/classical.00006.wav
+data/Data/genres_original/classical/classical.00088.wav
+data/Data/genres_original/classical/classical.00070.wav
+data/Data/genres_original/classical/classical.00084.wav
+data/Data/genres_original/classical/classical.00095.wav
+data/Data/genres_original/classical/classical.00026.wav
+data/Data/genres_original/classical/classical.00089.wav
+data/Data/genres_original/classical/classical.00042.wav
+data/Data/genres_original/classical/classical.00048.wav
+data/Data/genres_original/classical/classical.00053.wav
+data/Data/genres_original/classical/classical.00098.wav
+data/Data/genres_original/classical/classical.00033.wav
+data/Data/genres_original/classical/classical.00005.wav
+data/Data/genres_original/classical/classical.00080.wav
+data/Data/genres_original/classical/classical.00085.wav
+data/Data/genres_original/classical/classical.00087.wav
+data/Data/genres_original/classical/classical.00086.wav
+data/Data/genres_original/classical/classical.00020.wav
+data/Data/genres_original/classical/classical.00004.wav
+data/Data/genres_original/classical/classical.00072.wav
+data/Data/genres_original/classical/classical.00040.wav
+data/Data/genres_original/classical/classical.00023.wav
+data/Data/genres_original/classical/classical.00066.wav
+data/Data/genres_original/classical/classical.00014.wav
+data/Data/genres_original/classical/classical.00060.wav
+data/Data/genres_original/classical/classical.00083.wav
+data/Data/genres_original/classical/classical.00091.wav
+data/Data/genres_original/classical/classical.00031.wav
+data/Data/genres_original/classical/classical.00037.wav
+data/Data/genres_original/classical/classical.00017.wav
+data/Data/genres_original/classical/classical.00056.wav
+data/Data/genres_original/classical/classical.00024.wav
+data/Data/genres_original/classical/classical.00029.wav
+data/Data/genres_original/classical/classical.00001.wav
+data/Data/genres_original/classical/classical.00019.wav
+data/Data/genres_original/classical/classical.00018.wav
+data/Data/genres_original/classical/classical.00096.wav
+data/Data/genres_original/classical/classical.00027.wav
+data/Data/genres_original/classical/classical.00049.wav
+data/Data/genres_original/classical/classical.00009.wav
+data/Data/genres_original/classical/classical.00032.wav
+data/Data/genres_original/classical/classical.00079.wav
+data/Data/genres_original/classical/classical.00097.wav
+data/Data/genres_original/classical/classical.00041.wav
+data/Data/genres_original/classical/classical.00077.wav
+data/Data/genres_original/classical/classical.00036.wav
+data/Data/genres_original/classical/classical.00055.wav
+data/Data/genres_original/classical/classical.00044.wav
+data/Data/genres_original/classical/classical.00054.wav
+data/Data/genres_original/classical/classical.00038.wav
+data/Data/genres_original/classical/classical.00052.wav
+data/Data/genres_original/classical/classical.00002.wav
+data/Data/genres_original/classical/classical.00068.wav
+data/Data/genres_original/classical/classical.00081.wav
+data/Data/genres_original/classical/classical.00073.wav
+data/Data/genres_original/classical/classical.00030.wav
+data/Data/genres_original/classical/classical.00015.wav
+data/Data/genres_original/classical/classical.00064.wav
+data/Data/genres_original/classical/classical.00016.wav
+data/Data/genres_original/classical/classical.00051.wav
+data/Data/genres_original/classical/classical.00039.wav
+data/Data/genres_original/classical/classical.00045.wav
+data/Data/genres_original/classical/classical.00069.wav
+data/Data/genres_original/classical/classical.00000.wav
+data/Data/genres_original/classical/classical.00062.wav
+data/Data/genres_original/classical/classical.00013.wav
+data/Data/genres_original/classical/classical.00046.wav
+data/Data/genres_original/classical/classical.00028.wav
+data/Data/genres_original/classical/classical.00063.wav
+data/Data/genres_original/classical/classical.00010.wav
+data/Data/genres_original/classical/classical.00092.wav
+data/Data/genres_original/classical/classical.00057.wav
+data/Data/genres_original/classical/classical.00082.wav
+data/Data/genres_original/classical/classical.00011.wav
+data/Data/genres_original/classical/classical.00035.wav
+data/Data/genres_original/classical/classical.00093.wav
+data/Data/genres_original/classical/classical.00034.wav
+data/Data/genres_original/classical/classical.00022.wav
+data/Data/genres_original/classical/classical.00075.wav
+data/Data/genres_original/classical/classical.00071.wav
+data/Data/genres_original/classical/classical.00065.wav
+data/Data/genres_original/classical/classical.00050.wav
+data/Data/genres_original/classical/classical.00012.wav
+data/Data/genres_original/classical/classical.00099.wav
+data/Data/genres_original/classical/classical.00025.wav
+data/Data/genres_original/classical/classical.00074.wav
+data/Data/genres_original/country/country.00080.wav
+data/Data/genres_original/country/country.00014.wav
+data/Data/genres_original/country/country.00083.wav
+data/Data/genres_original/country/country.00054.wav
+data/Data/genres_original/country/country.00041.wav
+data/Data/genres_original/country/country.00095.wav
+data/Data/genres_original/country/country.00035.wav
+data/Data/genres_original/country/country.00000.wav
+data/Data/genres_original/country/country.00088.wav
+data/Data/genres_original/country/country.00028.wav
+data/Data/genres_original/country/country.00051.wav
+data/Data/genres_original/country/country.00010.wav
+data/Data/genres_original/country/country.00091.wav
+data/Data/genres_original/country/country.00064.wav
+data/Data/genres_original/country/country.00018.wav
+data/Data/genres_original/country/country.00040.wav
+data/Data/genres_original/country/country.00062.wav
+data/Data/genres_original/country/country.00094.wav
+data/Data/genres_original/country/country.00009.wav
+data/Data/genres_original/country/country.00004.wav
+data/Data/genres_original/country/country.00068.wav
+data/Data/genres_original/country/country.00077.wav
+data/Data/genres_original/country/country.00007.wav
+data/Data/genres_original/country/country.00034.wav
+data/Data/genres_original/country/country.00046.wav
+data/Data/genres_original/country/country.00011.wav
+data/Data/genres_original/country/country.00030.wav
+data/Data/genres_original/country/country.00021.wav
+data/Data/genres_original/country/country.00003.wav
+data/Data/genres_original/country/country.00026.wav
+data/Data/genres_original/country/country.00058.wav
+data/Data/genres_original/country/country.00059.wav
+data/Data/genres_original/country/country.00069.wav
+data/Data/genres_original/country/country.00086.wav
+data/Data/genres_original/country/country.00047.wav
+data/Data/genres_original/country/country.00045.wav
+data/Data/genres_original/country/country.00093.wav
+data/Data/genres_original/country/country.00033.wav
+data/Data/genres_original/country/country.00031.wav
+data/Data/genres_original/country/country.00060.wav
+data/Data/genres_original/country/country.00017.wav
+data/Data/genres_original/country/country.00057.wav
+data/Data/genres_original/country/country.00079.wav
+data/Data/genres_original/country/country.00075.wav
+data/Data/genres_original/country/country.00036.wav
+data/Data/genres_original/country/country.00049.wav
+data/Data/genres_original/country/country.00063.wav
+data/Data/genres_original/country/country.00085.wav
+data/Data/genres_original/country/country.00019.wav
+data/Data/genres_original/country/country.00098.wav
+data/Data/genres_original/country/country.00016.wav
+data/Data/genres_original/country/country.00013.wav
+data/Data/genres_original/country/country.00029.wav
+data/Data/genres_original/country/country.00087.wav
+data/Data/genres_original/country/country.00042.wav
+data/Data/genres_original/country/country.00072.wav
+data/Data/genres_original/country/country.00027.wav
+data/Data/genres_original/country/country.00078.wav
+data/Data/genres_original/country/country.00056.wav
+data/Data/genres_original/country/country.00012.wav
+data/Data/genres_original/country/country.00050.wav
+data/Data/genres_original/country/country.00022.wav
+data/Data/genres_original/country/country.00070.wav
+data/Data/genres_original/country/country.00082.wav
+data/Data/genres_original/country/country.00001.wav
+data/Data/genres_original/country/country.00005.wav
+data/Data/genres_original/country/country.00052.wav
+data/Data/genres_original/country/country.00039.wav
+data/Data/genres_original/country/country.00071.wav
+data/Data/genres_original/country/country.00097.wav
+data/Data/genres_original/country/country.00089.wav
+data/Data/genres_original/country/country.00081.wav
+data/Data/genres_original/country/country.00073.wav
+data/Data/genres_original/country/country.00008.wav
+data/Data/genres_original/country/country.00090.wav
+data/Data/genres_original/country/country.00002.wav
+data/Data/genres_original/country/country.00092.wav
+data/Data/genres_original/country/country.00023.wav
+data/Data/genres_original/country/country.00006.wav
+data/Data/genres_original/country/country.00044.wav
+data/Data/genres_original/country/country.00076.wav
+data/Data/genres_original/country/country.00099.wav
+data/Data/genres_original/country/country.00084.wav
+data/Data/genres_original/country/country.00048.wav
+data/Data/genres_original/country/country.00020.wav
+data/Data/genres_original/country/country.00074.wav
+data/Data/genres_original/country/country.00053.wav
+data/Data/genres_original/country/country.00025.wav
+data/Data/genres_original/country/country.00032.wav
+data/Data/genres_original/country/country.00096.wav
+data/Data/genres_original/country/country.00015.wav
+data/Data/genres_original/country/country.00066.wav
+data/Data/genres_original/country/country.00024.wav
+data/Data/genres_original/country/country.00043.wav
+data/Data/genres_original/country/country.00061.wav
+data/Data/genres_original/country/country.00037.wav
+data/Data/genres_original/country/country.00055.wav
+data/Data/genres_original/country/country.00065.wav
+data/Data/genres_original/country/country.00067.wav
+data/Data/genres_original/country/country.00038.wav
+data/Data/genres_original/metal/metal.00096.wav
+data/Data/genres_original/metal/metal.00092.wav
+data/Data/genres_original/metal/metal.00041.wav
+data/Data/genres_original/metal/metal.00032.wav
+data/Data/genres_original/metal/metal.00045.wav
+data/Data/genres_original/metal/metal.00097.wav
+data/Data/genres_original/metal/metal.00027.wav
+data/Data/genres_original/metal/metal.00094.wav
+data/Data/genres_original/metal/metal.00080.wav
+data/Data/genres_original/metal/metal.00065.wav
+data/Data/genres_original/metal/metal.00046.wav
+data/Data/genres_original/metal/metal.00020.wav
+data/Data/genres_original/metal/metal.00026.wav
+data/Data/genres_original/metal/metal.00072.wav
+data/Data/genres_original/metal/metal.00009.wav
+data/Data/genres_original/metal/metal.00051.wav
+data/Data/genres_original/metal/metal.00057.wav
+data/Data/genres_original/metal/metal.00005.wav
+data/Data/genres_original/metal/metal.00058.wav
+data/Data/genres_original/metal/metal.00042.wav
+data/Data/genres_original/metal/metal.00084.wav
+data/Data/genres_original/metal/metal.00047.wav
+data/Data/genres_original/metal/metal.00050.wav
+data/Data/genres_original/metal/metal.00081.wav
+data/Data/genres_original/metal/metal.00086.wav
+data/Data/genres_original/metal/metal.00054.wav
+data/Data/genres_original/metal/metal.00012.wav
+data/Data/genres_original/metal/metal.00016.wav
+data/Data/genres_original/metal/metal.00043.wav
+data/Data/genres_original/metal/metal.00014.wav
+data/Data/genres_original/metal/metal.00061.wav
+data/Data/genres_original/metal/metal.00018.wav
+data/Data/genres_original/metal/metal.00006.wav
+data/Data/genres_original/metal/metal.00069.wav
+data/Data/genres_original/metal/metal.00078.wav
+data/Data/genres_original/metal/metal.00000.wav
+data/Data/genres_original/metal/metal.00007.wav
+data/Data/genres_original/metal/metal.00013.wav
+data/Data/genres_original/metal/metal.00089.wav
+data/Data/genres_original/metal/metal.00029.wav
+data/Data/genres_original/metal/metal.00063.wav
+data/Data/genres_original/metal/metal.00090.wav
+data/Data/genres_original/metal/metal.00077.wav
+data/Data/genres_original/metal/metal.00044.wav
+data/Data/genres_original/metal/metal.00031.wav
+data/Data/genres_original/metal/metal.00037.wav
+data/Data/genres_original/metal/metal.00033.wav
+data/Data/genres_original/metal/metal.00028.wav
+data/Data/genres_original/metal/metal.00079.wav
+data/Data/genres_original/metal/metal.00088.wav
+data/Data/genres_original/metal/metal.00021.wav
+data/Data/genres_original/metal/metal.00023.wav
+data/Data/genres_original/metal/metal.00066.wav
+data/Data/genres_original/metal/metal.00002.wav
+data/Data/genres_original/metal/metal.00017.wav
+data/Data/genres_original/metal/metal.00001.wav
+data/Data/genres_original/metal/metal.00048.wav
+data/Data/genres_original/metal/metal.00003.wav
+data/Data/genres_original/metal/metal.00071.wav
+data/Data/genres_original/metal/metal.00098.wav
+data/Data/genres_original/metal/metal.00074.wav
+data/Data/genres_original/metal/metal.00067.wav
+data/Data/genres_original/metal/metal.00073.wav
+data/Data/genres_original/metal/metal.00038.wav
+data/Data/genres_original/metal/metal.00076.wav
+data/Data/genres_original/metal/metal.00022.wav
+data/Data/genres_original/metal/metal.00099.wav
+data/Data/genres_original/metal/metal.00004.wav
+data/Data/genres_original/metal/metal.00085.wav
+data/Data/genres_original/metal/metal.00053.wav
+data/Data/genres_original/metal/metal.00024.wav
+data/Data/genres_original/metal/metal.00093.wav
+data/Data/genres_original/metal/metal.00056.wav
+data/Data/genres_original/metal/metal.00059.wav
+data/Data/genres_original/metal/metal.00095.wav
+data/Data/genres_original/metal/metal.00034.wav
+data/Data/genres_original/metal/metal.00036.wav
+data/Data/genres_original/metal/metal.00083.wav
+data/Data/genres_original/metal/metal.00039.wav
+data/Data/genres_original/metal/metal.00049.wav
+data/Data/genres_original/metal/metal.00052.wav
+data/Data/genres_original/metal/metal.00008.wav
+data/Data/genres_original/metal/metal.00035.wav
+data/Data/genres_original/metal/metal.00070.wav
+data/Data/genres_original/metal/metal.00055.wav
+data/Data/genres_original/metal/metal.00040.wav
+data/Data/genres_original/metal/metal.00019.wav
+data/Data/genres_original/metal/metal.00010.wav
+data/Data/genres_original/metal/metal.00011.wav
+data/Data/genres_original/metal/metal.00087.wav
+data/Data/genres_original/metal/metal.00015.wav
+data/Data/genres_original/metal/metal.00091.wav
+data/Data/genres_original/metal/metal.00082.wav
+data/Data/genres_original/metal/metal.00025.wav
+data/Data/genres_original/metal/metal.00075.wav
+data/Data/genres_original/metal/metal.00064.wav
+data/Data/genres_original/metal/metal.00068.wav
+data/Data/genres_original/metal/metal.00060.wav
+data/Data/genres_original/metal/metal.00030.wav
+data/Data/genres_original/metal/metal.00062.wav
+data/Data/genres_original/blues/blues.00080.wav
+data/Data/genres_original/blues/blues.00036.wav
+data/Data/genres_original/blues/blues.00043.wav
+data/Data/genres_original/blues/blues.00029.wav
+data/Data/genres_original/blues/blues.00082.wav
+data/Data/genres_original/blues/blues.00056.wav
+data/Data/genres_original/blues/blues.00016.wav
+data/Data/genres_original/blues/blues.00044.wav
+data/Data/genres_original/blues/blues.00042.wav
+data/Data/genres_original/blues/blues.00035.wav
+data/Data/genres_original/blues/blues.00000.wav
+data/Data/genres_original/blues/blues.00063.wav
+data/Data/genres_original/blues/blues.00001.wav
+data/Data/genres_original/blues/blues.00048.wav
+data/Data/genres_original/blues/blues.00011.wav
+data/Data/genres_original/blues/blues.00091.wav
+data/Data/genres_original/blues/blues.00079.wav
+data/Data/genres_original/blues/blues.00002.wav
+data/Data/genres_original/blues/blues.00084.wav
+data/Data/genres_original/blues/blues.00068.wav
+data/Data/genres_original/blues/blues.00009.wav
+data/Data/genres_original/blues/blues.00015.wav
+data/Data/genres_original/blues/blues.00069.wav
+data/Data/genres_original/blues/blues.00088.wav
+data/Data/genres_original/blues/blues.00030.wav
+data/Data/genres_original/blues/blues.00087.wav
+data/Data/genres_original/blues/blues.00003.wav
+data/Data/genres_original/blues/blues.00031.wav
+data/Data/genres_original/blues/blues.00012.wav
+data/Data/genres_original/blues/blues.00039.wav
+data/Data/genres_original/blues/blues.00050.wav
+data/Data/genres_original/blues/blues.00066.wav
+data/Data/genres_original/blues/blues.00076.wav
+data/Data/genres_original/blues/blues.00057.wav
+data/Data/genres_original/blues/blues.00021.wav
+data/Data/genres_original/blues/blues.00098.wav
+data/Data/genres_original/blues/blues.00023.wav
+data/Data/genres_original/blues/blues.00059.wav
+data/Data/genres_original/blues/blues.00049.wav
+data/Data/genres_original/blues/blues.00019.wav
+data/Data/genres_original/blues/blues.00095.wav
+data/Data/genres_original/blues/blues.00070.wav
+data/Data/genres_original/blues/blues.00014.wav
+data/Data/genres_original/blues/blues.00047.wav
+data/Data/genres_original/blues/blues.00004.wav
+data/Data/genres_original/blues/blues.00027.wav
+data/Data/genres_original/blues/blues.00058.wav
+data/Data/genres_original/blues/blues.00053.wav
+data/Data/genres_original/blues/blues.00010.wav
+data/Data/genres_original/blues/blues.00099.wav
+data/Data/genres_original/blues/blues.00064.wav
+data/Data/genres_original/blues/blues.00017.wav
+data/Data/genres_original/blues/blues.00046.wav
+data/Data/genres_original/blues/blues.00020.wav
+data/Data/genres_original/blues/blues.00096.wav
+data/Data/genres_original/blues/blues.00026.wav
+data/Data/genres_original/blues/blues.00094.wav
+data/Data/genres_original/blues/blues.00032.wav
+data/Data/genres_original/blues/blues.00033.wav
+data/Data/genres_original/blues/blues.00083.wav
+data/Data/genres_original/blues/blues.00086.wav
+data/Data/genres_original/blues/blues.00090.wav
+data/Data/genres_original/blues/blues.00061.wav
+data/Data/genres_original/blues/blues.00025.wav
+data/Data/genres_original/blues/blues.00008.wav
+data/Data/genres_original/blues/blues.00054.wav
+data/Data/genres_original/blues/blues.00071.wav
+data/Data/genres_original/blues/blues.00077.wav
+data/Data/genres_original/blues/blues.00081.wav
+data/Data/genres_original/blues/blues.00045.wav
+data/Data/genres_original/blues/blues.00005.wav
+data/Data/genres_original/blues/blues.00028.wav
+data/Data/genres_original/blues/blues.00073.wav
+data/Data/genres_original/blues/blues.00055.wav
+data/Data/genres_original/blues/blues.00085.wav
+data/Data/genres_original/blues/blues.00022.wav
+data/Data/genres_original/blues/blues.00072.wav
+data/Data/genres_original/blues/blues.00074.wav
+data/Data/genres_original/blues/blues.00092.wav
+data/Data/genres_original/blues/blues.00097.wav
+data/Data/genres_original/blues/blues.00062.wav
+data/Data/genres_original/blues/blues.00013.wav
+data/Data/genres_original/blues/blues.00065.wav
+data/Data/genres_original/blues/blues.00038.wav
+data/Data/genres_original/blues/blues.00060.wav
+data/Data/genres_original/blues/blues.00018.wav
+data/Data/genres_original/blues/blues.00052.wav
+data/Data/genres_original/blues/blues.00037.wav
+data/Data/genres_original/blues/blues.00007.wav
+data/Data/genres_original/blues/blues.00024.wav
+data/Data/genres_original/blues/blues.00067.wav
+data/Data/genres_original/blues/blues.00089.wav
+data/Data/genres_original/blues/blues.00051.wav
+data/Data/genres_original/blues/blues.00075.wav
+data/Data/genres_original/blues/blues.00040.wav
+data/Data/genres_original/blues/blues.00034.wav
+data/Data/genres_original/blues/blues.00041.wav
+data/Data/genres_original/blues/blues.00093.wav
+data/Data/genres_original/blues/blues.00006.wav
+data/Data/genres_original/blues/blues.00078.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00080.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00036.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00043.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00029.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00082.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00056.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00016.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00044.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00042.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00035.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00000.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00063.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00001.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00048.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00011.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00091.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00079.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00002.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00084.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00068.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00009.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00015.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00069.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00088.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00030.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00087.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00003.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00031.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00012.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00039.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00050.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00066.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00076.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00057.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00021.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00098.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00023.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00059.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00049.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00019.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00095.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00070.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00014.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00047.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00004.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00027.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00058.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00053.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00010.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00099.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00064.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00017.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00046.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00020.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00096.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00026.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00094.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00032.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00033.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00083.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00086.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00090.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00061.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00025.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00008.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00054.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00071.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00077.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00081.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00045.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00005.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00028.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00073.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00055.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00085.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00022.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00072.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00074.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00092.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00097.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00062.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00013.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00065.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00038.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00060.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00018.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00052.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00037.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00007.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00024.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00067.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00089.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00051.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00075.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00040.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00034.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00041.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00093.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00006.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/blues/blues.00078.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00090.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00059.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00067.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00061.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00058.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00094.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00007.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00047.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00008.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00043.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00078.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00076.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00003.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00021.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00006.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00088.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00070.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00084.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00095.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00026.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00089.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00042.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00048.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00053.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00098.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00033.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00005.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00080.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00085.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00087.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00086.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00020.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00004.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00072.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00040.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00023.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00066.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00014.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00060.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00083.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00091.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00031.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00037.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00017.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00056.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00024.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00029.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00001.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00019.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00018.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00096.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00027.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00049.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00009.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00032.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00079.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00097.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00041.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00077.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00036.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00055.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00044.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00054.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00038.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00052.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00002.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00068.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00081.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00073.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00030.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00015.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00064.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00016.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00051.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00039.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00045.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00069.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00000.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00062.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00013.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00046.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00028.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00063.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00010.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00092.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00057.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00082.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00011.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00035.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00093.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00034.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00022.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00075.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00071.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00065.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00050.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00012.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00099.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00025.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/classical/classical.00074.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00080.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00014.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00083.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00054.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00041.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00095.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00035.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00000.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00088.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00028.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00051.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00010.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00091.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00064.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00018.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00040.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00062.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00094.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00009.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00004.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00068.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00077.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00007.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00034.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00046.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00011.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00030.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00021.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00003.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00026.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00058.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00059.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00069.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00086.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00047.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00045.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00093.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00033.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00031.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00060.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00017.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00057.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00079.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00075.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00036.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00049.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00063.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00085.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00019.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00098.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00016.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00013.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00029.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00087.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00042.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00072.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00027.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00078.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00056.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00012.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00050.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00022.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00070.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00082.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00001.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00005.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00052.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00039.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00071.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00097.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00089.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00081.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00073.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00008.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00090.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00002.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00092.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00023.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00006.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00044.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00076.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00099.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00084.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00048.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00020.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00074.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00053.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00025.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00032.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00096.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00015.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00066.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00024.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00043.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00061.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00037.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00055.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00065.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00067.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/country/country.00038.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00042.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00024.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00033.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00026.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00064.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00002.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00099.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00059.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00087.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00006.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00004.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00034.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00056.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00083.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00057.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00011.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00091.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00073.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00044.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00005.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00040.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00014.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00063.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00013.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00077.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00031.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00067.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00085.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00008.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00032.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00047.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00035.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00061.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00027.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00069.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00025.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00071.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00016.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00053.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00074.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00012.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00065.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00049.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00039.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00003.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00081.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00079.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00078.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00051.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00068.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00043.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00021.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00050.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00019.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00080.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00098.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00082.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00029.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00095.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00000.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00058.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00094.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00041.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00075.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00076.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00096.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00045.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00084.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00092.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00090.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00009.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00023.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00066.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00052.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00062.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00046.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00048.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00054.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00093.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00088.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00060.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00017.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00015.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00097.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00038.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00022.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00036.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00055.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00086.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00028.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00007.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00070.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00030.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00020.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00010.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00037.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00089.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00072.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/disco/disco.00018.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00056.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00023.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00067.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00099.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00034.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00092.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00090.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00080.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00054.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00026.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00011.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00051.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00084.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00070.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00020.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00048.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00055.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00024.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00077.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00030.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00091.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00001.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00072.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00063.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00010.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00058.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00073.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00022.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00032.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00093.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00082.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00040.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00035.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00025.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00017.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00003.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00041.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00016.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00061.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00004.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00018.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00042.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00075.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00087.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00085.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00015.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00014.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00088.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00007.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00008.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00096.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00050.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00019.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00043.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00039.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00037.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00038.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00013.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00059.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00064.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00069.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00081.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00068.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00057.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00078.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00094.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00002.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00089.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00006.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00045.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00044.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00012.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00060.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00066.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00052.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00083.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00036.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00027.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00047.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00009.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00098.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00071.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00053.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00074.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00046.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00095.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00031.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00033.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00029.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00086.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00005.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00097.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00079.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00076.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00000.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00049.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00028.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00065.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00021.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/hiphop/hiphop.00062.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00008.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00045.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00027.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00085.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00079.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00067.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00080.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00078.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00086.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00074.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00068.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00015.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00053.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00095.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00002.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00041.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00021.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00011.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00091.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00089.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00007.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00084.wav
+/home/bill/code/AI/main.py:52: UserWarning: PySoundFile failed. Trying audioread instead.
+  y, sr = librosa.load(file_path, sr=sr, duration=duration)
+/home/bill/anaconda3/envs/tf-env/lib/python3.10/site-packages/librosa/core/audio.py:184: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00034.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00069.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00039.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00018.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00019.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00075.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00060.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00014.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00062.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00030.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00020.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00071.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00077.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00088.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00040.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00098.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00087.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00004.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00035.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00099.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00097.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00056.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00083.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00023.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00032.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00001.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00009.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00070.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00050.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00024.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00057.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00031.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00048.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00026.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00090.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00052.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00064.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00042.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00013.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00016.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00044.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00065.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00076.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00066.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00022.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00012.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00073.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00055.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00061.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00033.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00017.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00049.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00029.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00082.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00093.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00081.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00025.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00010.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00005.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00063.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00072.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00038.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00092.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00094.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00054.wav
+Error loading /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00054.wav: 
+Second attempt failed: 
+All loading methods failed for /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00054.wav: Decoding failed. ffmpeg returned error code: 183
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.1 Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 13.3.0 (conda-forge gcc 13.3.0-2)
+  configuration: --prefix=/home/bill/anaconda3/envs/tf-env --cc=/home/conda/feedstock_root/build_artifacts/ffmpeg_1740542346949/_build_env/bin/x86_64-conda-linux-gnu-cc --cxx=/home/conda/feedstock_root/build_artifacts/ffmpeg_1740542346949/_build_env/bin/x86_64-conda-linux-gnu-c++ --nm=/home/conda/feedstock_root/build_artifacts/ffmpeg_1740542346949/_build_env/bin/x86_64-conda-linux-gnu-nm --ar=/home/conda/feedstock_root/build_artifacts/ffmpeg_1740542346949/_build_env/bin/x86_64-conda-linux-gnu-ar --disable-doc --enable-openssl --enable-demuxer=dash --enable-hardcoded-tables --enable-libfreetype --enable-libharfbuzz --enable-libfontconfig --enable-libopenh264 --enable-libdav1d --disable-gnutls --enable-libmp3lame --enable-libvpx --enable-libass --enable-pthreads --enable-alsa --enable-libpulse --enable-vaapi --enable-libopenvino --enable-gpl --enable-libx264 --enable-libx265 --enable-libaom --enable-libsvtav1 --enable-libxml2 --enable-pic --enable-shared --disable-static --enable-version3 --enable-zlib --enable-libvorbis --enable-libopus --enable-librsvg --enable-ffplay --pkg-config=/home/conda/feedstock_root/build_artifacts/ffmpeg_1740542346949/_build_env/bin/pkg-config
+  libavutil      59. 39.100 / 59. 39.100
+  libavcodec     61. 19.100 / 61. 19.100
+  libavformat    61.  7.100 / 61.  7.100
+  libavdevice    61.  3.100 / 61.  3.100
+  libavfilter    10.  4.100 / 10.  4.100
+  libswscale      8.  3.100 /  8.  3.100
+  libswresample   5.  3.100 /  5.  3.100
+  libpostproc    58.  3.100 / 58.  3.100
+[in#0 @ 0x5602e9fd33c0] Error opening input: Invalid data found when processing input
+Error opening input file /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00054.wav.
+Error opening input files: Invalid data found when processing input
+
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00047.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00043.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00096.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00003.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00058.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00006.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00028.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00046.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00037.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00051.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00059.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00036.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/jazz/jazz.00000.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00096.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00092.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00041.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00032.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00045.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00097.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00027.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00094.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00080.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00065.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00046.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00020.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00026.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00072.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00009.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00051.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00057.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00005.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00058.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00042.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00084.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00047.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00050.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00081.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00086.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00054.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00012.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00016.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00043.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00014.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00061.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00018.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00006.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00069.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00078.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00000.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00007.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00013.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00089.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00029.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00063.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00090.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00077.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00044.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00031.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00037.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00033.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00028.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00079.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00088.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00021.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00023.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00066.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00002.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00017.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00001.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00048.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00003.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00071.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00098.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00074.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00067.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00073.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00038.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00076.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00022.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00099.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00004.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00085.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00053.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00024.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00093.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00056.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00059.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00095.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00034.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00036.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00083.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00039.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00049.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00052.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00008.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00035.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00070.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00055.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00040.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00019.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00010.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00011.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00087.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00015.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00091.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00082.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00025.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00075.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00064.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00068.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00060.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00030.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/metal/metal.00062.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00036.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00048.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00061.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00097.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00049.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00009.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00027.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00039.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00092.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00006.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00044.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00099.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00046.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00037.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00066.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00004.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00083.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00010.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00084.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00043.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00055.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00024.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00071.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00052.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00038.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00041.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00058.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00077.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00063.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00062.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00080.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00086.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00034.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00059.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00021.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00026.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00079.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00073.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00013.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00005.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00078.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00098.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00017.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00093.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00054.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00050.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00094.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00045.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00023.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00074.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00056.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00019.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00075.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00090.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00007.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00029.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00070.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00015.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00087.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00088.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00076.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00031.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00000.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00025.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00028.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00065.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00008.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00035.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00042.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00053.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00040.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00069.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00032.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00016.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00081.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00067.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00089.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00060.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00095.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00051.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00082.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00011.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00001.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00085.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00014.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00018.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00064.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00012.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00002.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00096.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00072.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00057.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00030.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00068.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00047.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00020.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00033.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00022.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/pop/pop.00091.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00010.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00038.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00084.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00023.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00056.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00065.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00072.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00007.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00011.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00003.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00094.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00092.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00093.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00036.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00028.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00078.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00013.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00083.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00027.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00081.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00016.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00051.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00022.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00041.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00053.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00001.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00066.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00067.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00076.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00025.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00006.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00040.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00089.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00061.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00018.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00062.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00037.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00005.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00042.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00047.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00055.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00035.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00057.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00085.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00050.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00074.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00075.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00090.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00033.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00024.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00032.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00031.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00030.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00046.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00098.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00071.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00068.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00008.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00080.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00064.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00099.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00043.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00082.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00091.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00020.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00097.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00044.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00002.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00021.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00069.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00059.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00014.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00095.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00015.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00060.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00039.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00049.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00087.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00070.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00052.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00019.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00096.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00079.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00054.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00017.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00029.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00058.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00073.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00004.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00048.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00034.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00045.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00077.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00012.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00009.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00063.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00026.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00088.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00000.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/reggae/reggae.00086.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00044.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00006.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00000.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00046.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00041.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00054.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00012.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00095.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00097.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00073.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00014.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00076.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00079.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00099.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00077.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00020.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00004.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00023.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00013.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00062.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00043.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00015.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00007.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00030.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00052.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00075.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00094.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00003.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00065.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00063.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00069.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00039.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00057.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00034.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00059.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00066.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00029.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00037.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00016.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00032.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00009.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00053.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00089.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00028.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00024.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00064.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00027.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00035.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00002.wav
+2025-02-27 08:27:51.968765: E external/local_xla/xla/stream_executor/cuda/cuda_driver.cc:152] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00098.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00056.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00033.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00001.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00074.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00083.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00021.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00072.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00091.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00088.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00005.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00087.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00042.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00078.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00049.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00010.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00070.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00085.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00050.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00022.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00086.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00025.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00017.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00068.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00090.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00038.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00026.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00055.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00093.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00040.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00019.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00081.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00036.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00011.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00018.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00047.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00080.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00082.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00067.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00058.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00061.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00031.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00096.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00092.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00008.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00071.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00048.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00084.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00051.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00060.wav
+Extracting features from /home/bill/code/AI/data/Data/genres_original/rock/rock.00045.wav
+รูปร่างของคุณลักษณะ: (998, 128, 1292)
+รูปร่างของป้ายกำกับ: (998,)
+รูปร่างของข้อมูลฝึกฝน: (638, 128, 1292, 1)
+รูปร่างของข้อมูลตรวจสอบ: (160, 128, 1292, 1)
+รูปร่างของข้อมูลทดสอบ: (200, 128, 1292, 1)
+Model: "functional"
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
+┃ Layer (type)                    ┃ Output Shape           ┃       Param # ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
+│ input_layer (InputLayer)        │ (None, 128, 259, 1)    │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ conv2d (Conv2D)                 │ (None, 128, 259, 64)   │           640 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ batch_normalization             │ (None, 128, 259, 64)   │           256 │
+│ (BatchNormalization)            │                        │               │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ max_pooling2d (MaxPooling2D)    │ (None, 64, 129, 64)    │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dropout (Dropout)               │ (None, 64, 129, 64)    │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ conv2d_1 (Conv2D)               │ (None, 64, 129, 128)   │        73,856 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ batch_normalization_1           │ (None, 64, 129, 128)   │           512 │
+│ (BatchNormalization)            │                        │               │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ max_pooling2d_1 (MaxPooling2D)  │ (None, 32, 64, 128)    │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dropout_1 (Dropout)             │ (None, 32, 64, 128)    │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ conv2d_2 (Conv2D)               │ (None, 32, 64, 256)    │       295,168 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ batch_normalization_2           │ (None, 32, 64, 256)    │         1,024 │
+│ (BatchNormalization)            │                        │               │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ max_pooling2d_2 (MaxPooling2D)  │ (None, 16, 32, 256)    │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dropout_2 (Dropout)             │ (None, 16, 32, 256)    │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ conv2d_3 (Conv2D)               │ (None, 16, 32, 512)    │     1,180,160 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ batch_normalization_3           │ (None, 16, 32, 512)    │         2,048 │
+│ (BatchNormalization)            │                        │               │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ max_pooling2d_3 (MaxPooling2D)  │ (None, 4, 8, 512)      │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dropout_3 (Dropout)             │ (None, 4, 8, 512)      │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ reshape (Reshape)               │ (None, 8, 2048)        │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ bidirectional (Bidirectional)   │ (None, 8, 512)         │     4,720,640 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dropout_4 (Dropout)             │ (None, 8, 512)         │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ bidirectional_1 (Bidirectional) │ (None, 512)            │     1,574,912 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dropout_5 (Dropout)             │ (None, 512)            │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dense (Dense)                   │ (None, 512)            │       262,656 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dropout_6 (Dropout)             │ (None, 512)            │             0 │
+├─────────────────────────────────┼────────────────────────┼───────────────┤
+│ dense_1 (Dense)                 │ (None, 10)             │         5,130 │
+└─────────────────────────────────┴────────────────────────┴───────────────┘
+ Total params: 8,117,002 (30.96 MB)
+ Trainable params: 8,115,082 (30.96 MB)
+ Non-trainable params: 1,920 (7.50 KB)
+Epoch 1/100
+[1m 1/20[0m [32m━[0m[37m━━━━━━━━━━━━━━━━━━━[0m [1m2:27[0m 8s/step - accuracy: 0.0000e+00 - loss: 2.3498[1m 2/20[0m [32m━━[0m[37m━━━━━━━━━━━━━━━━━━[0m [1m43s[0m 2s/step - accuracy: 0.0234 - loss: 2.3290     [1m 3/20[0m [32m━━━[0m[37m━━━━━━━━━━━━━━━━━[0m [1m40s[0m 2s/step - accuracy: 0.0295 - loss: 2.3261[1m 4/20[0m [32m━━━━[0m[37m━━━━━━━━━━━━━━━━[0m [1m38s[0m 2s/step - accuracy: 0.0378 - loss: 2.3239[1m 5/20[0m [32m━━━━━[0m[37m━━━━━━━━━━━━━━━[0m [1m35s[0m 2s/step - accuracy: 0.0452 - loss: 2.3214
