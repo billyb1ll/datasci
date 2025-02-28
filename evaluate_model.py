@@ -182,3 +182,6 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"Error during prediction: {e}")
         print("Make sure your dataset path is correct and contains audio files.")
+
+
+evaluate_model()

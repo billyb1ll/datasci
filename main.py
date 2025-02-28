@@ -108,13 +108,14 @@ def extract_features(file_path, sr=22050, duration=30):
 
 
 # การโหลดและจัดเตรียมชุดข้อมูล
-def prepare_dataset(dataset_path, genres):
+def prepare_dataset(dataset_path, genres, min_samples_per_class=None):
     """
-    เตรียมชุดข้อมูลสำหรับการฝึกฝน
+    เตรียมชุดข้อมูลสำหรับการฝึกฝน พร้อมตรวจสอบจำนวนตัวอย่างในแต่ละประเภท
     
     Parameters:
         dataset_path (str): เส้นทางไปยังโฟลเดอร์ที่มีไฟล์เสียง
         genres (list): รายการประเภทดนตรีที่ต้องการจำแนก
+        min_samples_per_class (int): จำนวนตัวอย่างขั้นต่ำที่ต้องการสำหรับแต่ละประเภท
         
     Returns:
         X (np.array): อาร์เรย์ของคุณลักษณะ
@@ -122,16 +123,30 @@ def prepare_dataset(dataset_path, genres):
     """
     features = []
     labels = []
+    samples_per_genre = {}
     
     for genre in genres:
+        samples_per_genre[genre] = 0
         genre_path = os.path.join(dataset_path, genre)
-        for file_name in os.listdir(genre_path):
-            if file_name.endswith('.wav') or file_name.endswith('.mp3'):
-                file_path = os.path.join(genre_path, file_name)
-                print(f'Extracting features from {file_path}')
-                mel_spec = extract_features(file_path)
-                features.append(mel_spec)
-                labels.append(genre)
+        try:
+            for file_name in os.listdir(genre_path):
+                if file_name.endswith('.wav') or file_name.endswith('.mp3'):
+                    file_path = os.path.join(genre_path, file_name)
+                    print(f'Extracting features from {file_path}')
+                    mel_spec = extract_features(file_path)
+                    features.append(mel_spec)
+                    labels.append(genre)
+                    samples_per_genre[genre] += 1
+                    
+                    # หยุดเมื่อได้จำนวนตัวอย่างที่ต้องการ
+                    if min_samples_per_class and samples_per_genre[genre] >= min_samples_per_class:
+                        break
+        except Exception as e:
+            print(f"Error processing genre {genre}: {e}")
+    
+    # แสดงจำนวนตัวอย่างในแต่ละประเภท
+    for genre, count in samples_per_genre.items():
+        print(f"{genre}: {count} samples")
     
     # แปลงป้ายกำกับเป็นตัวเลข
     label_encoder = LabelEncoder()
@@ -141,7 +156,7 @@ def prepare_dataset(dataset_path, genres):
     X = np.array(features)
     y = np.array(y)
     
-    return X, y, label_encoder
+    return X, y, label_encoder, samples_per_genre
 
 
 # In[5]:
@@ -234,13 +249,14 @@ from tensorflow.keras.layers import Dropout, Reshape, Dense, LSTM, Bidirectional
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint, ReduceLROnPlateau
 
-def create_crnn_model(input_shape, num_classes):
+def create_crnn_model(input_shape, num_classes, learning_rate=0.0005):
     """
     สร้างโมเดล CRNN สำหรับการจำแนกดนตรีพร้อมป้องกัน overfitting
     
     Parameters:
         input_shape (tuple): รูปร่างของอินพุต (time_steps, features, channels)
         num_classes (int): จำนวนประเภทดนตรี
+        learning_rate (float): อัตราการเรียนรู้เริ่มต้น
         
     Returns:
         model (tf.keras.Model): โมเดล CRNN
@@ -250,51 +266,61 @@ def create_crnn_model(input_shape, num_classes):
     
     # ส่วน CNN 
     # ชั้นที่ 1
-    x = Conv2D(filters=64, kernel_size=(3, 3), padding='same', activation='relu',
-              kernel_regularizer=tf.keras.regularizers.l2(0.001))(inputs)  # L2 regularization
+    x = Conv2D(filters=32, kernel_size=(3, 3), padding='same', activation='relu',
+              kernel_regularizer=tf.keras.regularizers.l2(0.0015))(inputs)
     x = BatchNormalization()(x)
     x = MaxPooling2D(pool_size=(2, 2))(x)
-    x = Dropout(0.3)(x)  # เพิ่ม Dropout rate
+    x = Dropout(0.25)(x)
     
     # ชั้นที่ 2
-    x = Conv2D(filters=128, kernel_size=(3, 3), padding='same', activation='relu',
-              kernel_regularizer=tf.keras.regularizers.l2(0.001))(x)  # L2 regularization
+    x = Conv2D(filters=64, kernel_size=(3, 3), padding='same', activation='relu',
+              kernel_regularizer=tf.keras.regularizers.l2(0.0015))(x)
     x = BatchNormalization()(x)
     x = MaxPooling2D(pool_size=(2, 2))(x)
-    x = Dropout(0.3)(x)  # เพิ่ม Dropout rate
+    x = Dropout(0.25)(x)
     
     # ชั้นที่ 3
-    x = Conv2D(filters=256, kernel_size=(3, 3), padding='same', activation='relu',
-              kernel_regularizer=tf.keras.regularizers.l2(0.001))(x)  # L2 regularization
+    x = Conv2D(filters=128, kernel_size=(3, 3), padding='same', activation='relu',
+              kernel_regularizer=tf.keras.regularizers.l2(0.0015))(x)
+    x = BatchNormalization()(x)
+    x = Conv2D(filters=128, kernel_size=(3, 3), padding='same', activation='relu',
+              kernel_regularizer=tf.keras.regularizers.l2(0.0015))(x)  # เพิ่ม Conv layer
     x = BatchNormalization()(x)
     x = MaxPooling2D(pool_size=(2, 2))(x)
-    x = Dropout(0.3)(x)  # เพิ่ม Dropout rate
+    x = Dropout(0.3)(x)
     
     # ชั้นที่ 4
-    x = Conv2D(filters=512, kernel_size=(3, 3), padding='same', activation='relu',
-              kernel_regularizer=tf.keras.regularizers.l2(0.001))(x)  # L2 regularization
+    x = Conv2D(filters=256, kernel_size=(3, 3), padding='same', activation='relu',
+              kernel_regularizer=tf.keras.regularizers.l2(0.002))(x)
     x = BatchNormalization()(x)
     x = MaxPooling2D(pool_size=(4, 4))(x)
-    x = Dropout(0.4)(x)  # เพิ่ม Dropout rate
+    x = Dropout(0.4)(x)
     
     # เปลี่ยนรูปร่างสำหรับ RNN
     _, height, width, channels = x.shape
     x = Reshape((width, height * channels))(x)
     
     # ส่วน RNN - จับความสัมพันธ์เชิงลำดับตามเวลา
-    x = Bidirectional(LSTM(256, return_sequences=True, 
-                         recurrent_regularizer=tf.keras.regularizers.l2(0.001)))(x)  # Regularizer for RNN
-    x = Dropout(0.4)(x)  # เพิ่ม Dropout rate
+    x = Bidirectional(LSTM(128, return_sequences=True, 
+                         recurrent_dropout=0.1,
+                         recurrent_regularizer=tf.keras.regularizers.l2(0.002)))(x)
+    x = Dropout(0.4)(x)
     
     # LSTM ชั้นที่ 2
-    x = Bidirectional(LSTM(256, return_sequences=False,
-                         recurrent_regularizer=tf.keras.regularizers.l2(0.001)))(x)  # Regularizer for RNN  
-    x = Dropout(0.4)(x)  # เพิ่ม Dropout rate
+    x = Bidirectional(LSTM(128, return_sequences=False,
+                         recurrent_dropout=0.1,
+                         recurrent_regularizer=tf.keras.regularizers.l2(0.002)))(x)
+    x = Dropout(0.4)(x)
     
     # ชั้นเชื่อมต่อแบบเต็ม (Fully Connected Layer)
-    x = Dense(512, activation='relu', 
-             kernel_regularizer=tf.keras.regularizers.l2(0.001))(x)  # L2 regularization
-    x = Dropout(0.5)(x)  # เพิ่ม Dropout rate มากขึ้นในชั้นสุดท้าย
+    x = Dense(256, activation='relu', 
+             kernel_regularizer=tf.keras.regularizers.l2(0.002))(x)
+    x = Dropout(0.5)(x)
+    
+    # เพิ่มอีกหนึ่งชั้น Dense แบบเล็กลง
+    x = Dense(128, activation='relu', 
+             kernel_regularizer=tf.keras.regularizers.l2(0.002))(x)
+    x = Dropout(0.5)(x)
     
     # ชั้นเอาต์พุต
     outputs = Dense(num_classes, activation='softmax')(x)
@@ -304,14 +330,15 @@ def create_crnn_model(input_shape, num_classes):
     
     # คอมไพล์โมเดล
     model.compile(
-        optimizer=Adam(learning_rate=0.0001),
+        optimizer=Adam(learning_rate=learning_rate),
         loss='sparse_categorical_crossentropy',
         metrics=['accuracy']
     )
     
     return model
 
-def train_crnn_model(model, X_train, y_train, X_val, y_val, X_test, batch_size=32, epochs=100, model_path='crnn_music_genre_model'):
+def train_crnn_model(model, X_train, y_train, X_val, y_val, X_test, batch_size=16, epochs=100, 
+                     model_path='crnn_music_genre_model', class_weights=None):
     """
     ฝึกฝนโมเดล CRNN พร้อมเทคนิคป้องกัน overfitting
     
@@ -323,25 +350,28 @@ def train_crnn_model(model, X_train, y_train, X_val, y_val, X_test, batch_size=3
         batch_size (int): ขนาดของ batch
         epochs (int): จำนวนรอบการฝึกฝน
         model_path (str): เส้นทางสำหรับบันทึกโมเดล
+        class_weights (dict): น้ำหนักสำหรับแต่ละคลาสในกรณีข้อมูลไม่สมดุล
         
     Returns:
         history: ประวัติการฝึกฝน
     """
-    # Data augmentation
+    # เพิ่ม Data augmentation
     datagen = tf.keras.preprocessing.image.ImageDataGenerator(
-        width_shift_range=0.1,  # ขยับภาพตามแนวแกน x
-        height_shift_range=0.1,  # ขยับภาพตามแนวแกน y
-        zoom_range=0.1,         # ย่อ/ขยายภาพ
-        rotation_range=5,       # หมุนภาพเล็กน้อย
-        horizontal_flip=False,   # ไม่กลับด้านแนวนอน (time-dependent)
+        width_shift_range=0.15,  # เพิ่มการขยับภาพตามแนวแกน x
+        height_shift_range=0.15,  # เพิ่มการขยับภาพตามแนวแกน y
+        zoom_range=0.15,         # เพิ่มการย่อ/ขยายภาพ
+        rotation_range=5,        # หมุนภาพเล็กน้อย
+        brightness_range=[0.8, 1.2],  # ปรับความสว่าง
+        fill_mode='constant',    # เติมขอบด้วยค่าคงที่
+        horizontal_flip=False    # ไม่กลับด้านแนวนอน (time-dependent)
     )
     
     # กำหนด callbacks ที่ช่วยป้องกัน overfitting
     callbacks = [
-        # หยุดก่อนกำหนดเมื่อ validation loss ไม่ลดลง (patience เพิ่มขึ้น)
+        # หยุดก่อนกำหนดเมื่อ validation loss ไม่ลดลง 
         EarlyStopping(
             monitor='val_loss',
-            patience=20,  # เพิ่มความอดทนให้มากขึ้น
+            patience=25,         # เพิ่มความอดทน
             restore_best_weights=True,
             verbose=1
         ),
@@ -356,15 +386,16 @@ def train_crnn_model(model, X_train, y_train, X_val, y_val, X_test, batch_size=3
         # ลดอัตราการเรียนรู้เมื่อ validation loss ไม่ลดลง
         ReduceLROnPlateau(
             monitor='val_loss',
-            factor=0.2,  # ลด learning rate ลง 80% แทน 50%
-            patience=7,
+            factor=0.15,         # ลด learning rate ลง 85%
+            patience=5,          # ลดความอดทนเพื่อปรับ LR เร็วขึ้น
             min_lr=1e-7,
             verbose=1
         ),
         # เพิ่ม TensorBoard callback สำหรับการวิเคราะห์
         tf.keras.callbacks.TensorBoard(
             log_dir=f'./logs/{model_path}',
-            histogram_freq=1
+            histogram_freq=1,
+            update_freq='epoch'
         )
     ]
     
@@ -380,6 +411,7 @@ def train_crnn_model(model, X_train, y_train, X_val, y_val, X_test, batch_size=3
         epochs=epochs,
         validation_data=(X_val, y_val),
         callbacks=callbacks,
+        class_weight=class_weights,  # เพิ่มการถ่วงน้ำหนักคลาสหากข้อมูลไม่สมดุล
         verbose=1
     )
     
@@ -415,14 +447,142 @@ def train_crnn_model(model, X_train, y_train, X_val, y_val, X_test, batch_size=3
     
     return history, X_train, X_val, X_test
 
+# ฟังก์ชันใหม่สำหรับการประเมินโมเดลและแสดงผล
+def evaluate_model(model, X_test, y_test, label_encoder):
+    """
+    ประเมินประสิทธิภาพของโมเดลและแสดงผลการทำนาย
+    
+    Parameters:
+        model (tf.keras.Model): โมเดลที่ฝึกฝนแล้ว
+        X_test (np.array): ข้อมูลทดสอบ
+        y_test (np.array): ป้ายกำกับที่ถูกต้องของข้อมูลทดสอบ
+        label_encoder (LabelEncoder): เครื่องมือแปลงป้ายกำกับ
+    """
+    from sklearn.metrics import classification_report, confusion_matrix
+    import seaborn as sns
+    
+    # ทำนายคลาส
+    y_pred = model.predict(X_test)
+    y_pred_classes = np.argmax(y_pred, axis=1)
+    
+    # รายงานการจำแนก
+    class_names = label_encoder.classes_
+    print("Classification Report:")
+    print(classification_report(y_test, y_pred_classes, target_names=class_names))
+    
+    # สร้าง Confusion Matrix
+    cm = confusion_matrix(y_test, y_pred_classes)
+    plt.figure(figsize=(12, 10))
+    sns.heatmap(cm, annot=True, fmt="d", cmap="Blues", 
+                xticklabels=class_names, yticklabels=class_names)
+    plt.title('Confusion Matrix')
+    plt.ylabel('True Label')
+    plt.xlabel('Predicted Label')
+    plt.xticks(rotation=45)
+    plt.yticks(rotation=45)
+    plt.tight_layout()
+    plt.savefig('confusion_matrix.png')
+    plt.show()
+    
+    # แสดงตัวอย่างการทำนายผิด
+    misclassified = np.where(y_pred_classes != y_test)[0]
+    if len(misclassified) > 0:
+        print(f"\nตัวอย่างการทำนายผิด ({min(5, len(misclassified))} ตัวอย่าง):")
+        for i in range(min(5, len(misclassified))):
+            idx = misclassified[i]
+            true_label = label_encoder.inverse_transform([y_test[idx]])[0]
+            pred_label = label_encoder.inverse_transform([y_pred_classes[idx]])[0]
+            confidence = np.max(y_pred[idx]) * 100
+            print(f"ตัวอย่างที่ {idx}: ทำนายเป็น {pred_label} (ความมั่นใจ {confidence:.2f}%) แต่ที่จริงคือ {true_label}")
 
-
-# In[ ]:
-input_shape = (128, 259, 1)  # (freq_bins, time_frames, channels)
-num_classes = 10  # จำนวนประเภทดนตรี
-model = create_crnn_model(input_shape, num_classes)
-model.summary()
-history, X_train_processed, X_val_processed, X_test_processed = train_crnn_model(
-        model, X_train, y_train, X_val, y_val, X_test, 
-        batch_size=32, epochs=100
-)
+if __name__ == '__main__':
+    dataset_path = '/home/bill/code/AI/data/Data/genres_original'
+    genres = ['blues', 'classical', 'country', 'disco', 'hiphop', 
+              'jazz', 'metal', 'pop', 'reggae', 'rock']
+    
+    # เตรียมข้อมูลพร้อมตรวจสอบจำนวนตัวอย่าง
+    X, y, label_encoder, samples_per_genre = prepare_dataset(dataset_path, genres)
+    print(f"รูปร่างของคุณลักษณะ: {X.shape}")
+    print(f"รูปร่างของป้ายกำกับ: {y.shape}")
+    
+    # ตรวจสอบคุณภาพข้อมูล
+    bad_indices = check_data_quality(X, threshold=-60)
+    
+    # ตรวจสอบความสมดุลของข้อมูล
+    class_counts, class_names = check_data_balance(y, label_encoder)
+    
+    # สร้าง class weights เพื่อจัดการกับข้อมูลไม่สมดุล
+    from sklearn.utils.class_weight import compute_class_weight
+    class_weights = compute_class_weight(class_weight='balanced', classes=np.unique(y), y=y)
+    class_weights_dict = {i: weight for i, weight in enumerate(class_weights)}
+    print("Class weights:", class_weights_dict)
+    
+    # แสดงตัวอย่าง Mel-spectrogram
+    plot_mel_spectrogram(X[0], title=f'Mel Spectrogram: {label_encoder.inverse_transform([y[0]])[0]}')
+    
+    # สร้างชุดข้อมูลฝึกฝน ตรวจสอบ และทดสอบ
+    X_train, X_val, X_test, y_train, y_val, y_test = create_train_test_data(X, y)
+    print(f"รูปร่างของข้อมูลฝึกฝน: {X_train.shape}")
+    print(f"รูปร่างของข้อมูลตรวจสอบ: {X_val.shape}")
+    print(f"รูปร่างของข้อมูลทดสอบ: {X_test.shape}")
+    
+    # สร้าง balanced subsets สำหรับ validation และ test
+    def oversample_minority_classes(X, y, target_class_count=None):
+        from sklearn.utils import resample
+        
+        # หากไม่ระบุจำนวนตัวอย่างเป้าหมาย ให้ใช้ค่าสูงสุด
+        if target_class_count is None:
+            target_class_count = max(np.bincount(y))
+        
+        X_resampled = []
+        y_resampled = []
+        
+        # สำหรับแต่ละคลาส
+        for class_id in np.unique(y):
+            # ดึงข้อมูลของคลาสนั้น
+            X_class = X[y == class_id]
+            y_class = y[y == class_id]
+            
+            # เพิ่มจำนวนตัวอย่าง
+            if len(X_class) < target_class_count:
+                X_class_resampled, y_class_resampled = resample(
+                    X_class, 
+                    y_class,
+                    replace=True,
+                    n_samples=target_class_count,
+                    random_state=42
+                )
+            else:
+                X_class_resampled = X_class
+                y_class_resampled = y_class
+            
+            X_resampled.extend(X_class_resampled)
+            y_resampled.extend(y_class_resampled)
+        
+        return np.array(X_resampled), np.array(y_resampled)
+    
+    # ปรับความสมดุลของชุดข้อมูลฝึกฝน
+    X_train_balanced, y_train_balanced = oversample_minority_classes(X_train, y_train)
+    print(f"รูปร่างของข้อมูลฝึกฝนหลังปรับความสมดุล: {X_train_balanced.shape}")
+    
+    # สร้างและฝึกฝนโมเดล
+    input_shape = (128, 259, 1)  # (freq_bins, time_frames, channels)
+    num_classes = len(np.unique(y))
+    
+    # สร้างโมเดลใหม่ที่ปรับปรุงแล้ว
+    model = create_crnn_model(input_shape, num_classes, learning_rate=0.0008)
+    model.summary()
+    
+    # ฝึกฝนโมเดล
+    history, X_train_processed, X_val_processed, X_test_processed = train_crnn_model(
+            model, 
+            X_train_balanced, y_train_balanced,  # ใช้ข้อมูลที่ปรับความสมดุลแล้ว
+            X_val, y_val, 
+            X_test, 
+            batch_size=16,  # ลดขนาด batch
+            epochs=150,     # เพิ่มจำนวน epoch
+            class_weights=class_weights_dict  # ใช้ class weights
+    )
+    
+    # ประเมินโมเดล
+    evaluate_model(model, X_test_processed, y_test, label_encoder)
