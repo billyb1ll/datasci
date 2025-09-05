@@ -1,0 +1,346 @@
+nohup: ignoring input
+[W 2025-02-27 05:41:24.494 ServerApp] A `_jupyter_server_extension_points` function was not found in jupyter_lsp. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[W 2025-02-27 05:41:24.613 ServerApp] A `_jupyter_server_extension_points` function was not found in notebook_shim. Instead, a `_jupyter_server_extension_paths` function was found and will be used for now. This function name will be deprecated in future releases of Jupyter Server.
+[I 2025-02-27 05:41:25.278 ServerApp] Extension package panel.io.jupyter_server_extension took 0.6648s to import
+[I 2025-02-27 05:41:25.278 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-02-27 05:41:25.281 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-02-27 05:41:25.285 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-02-27 05:41:25.288 ServerApp] notebook | extension was successfully linked.
+[I 2025-02-27 05:41:25.485 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-02-27 05:41:25.485 ServerApp] panel.io.jupyter_server_extension | extension was successfully linked.
+[I 2025-02-27 05:41:25.496 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-02-27 05:41:25.498 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-02-27 05:41:25.498 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-02-27 05:41:25.500 LabApp] JupyterLab extension loaded from /home/bill/anaconda3/lib/python3.12/site-packages/jupyterlab
+[I 2025-02-27 05:41:25.500 LabApp] JupyterLab application directory is /home/bill/anaconda3/share/jupyter/lab
+[I 2025-02-27 05:41:25.500 LabApp] Extension Manager is 'pypi'.
+[I 2025-02-27 05:41:25.510 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-02-27 05:41:25.513 ServerApp] notebook | extension was successfully loaded.
+[I 2025-02-27 05:41:25.513 ServerApp] panel.io.jupyter_server_extension | extension was successfully loaded.
+[I 2025-02-27 05:41:25.514 ServerApp] Serving notebooks from local directory: /home/bill/code/AI
+[I 2025-02-27 05:41:25.514 ServerApp] Jupyter Server 2.14.1 is running at:
+[I 2025-02-27 05:41:25.514 ServerApp] http://localhost:8888/tree?token=7e8e577086d044492127fafd6e996d6cc976104d611aa50b
+[I 2025-02-27 05:41:25.514 ServerApp]     http://127.0.0.1:8888/tree?token=7e8e577086d044492127fafd6e996d6cc976104d611aa50b
+[I 2025-02-27 05:41:25.514 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-02-27 05:41:25.516 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/bill/.local/share/jupyter/runtime/jpserver-655476-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/tree?token=7e8e577086d044492127fafd6e996d6cc976104d611aa50b
+        http://127.0.0.1:8888/tree?token=7e8e577086d044492127fafd6e996d6cc976104d611aa50b
+[W 2025-02-27 05:41:25.545 ServerApp] Could not determine npm prefix: Command '['npm', 'prefix', '-g']' returned non-zero exit status 127.
+[I 2025-02-27 05:41:25.549 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2025-02-27 05:42:12.926 ServerApp] Saving file at /main.ipynb
+[I 2025-02-27 05:45:57.670 ServerApp] 302 GET / (@127.0.0.1) 0.43ms
+[I 2025-02-27 05:46:03.464 ServerApp] Kernel started: 0add0df0-44f3-4322-bc1d-a44eb5e5b32a
+[I 2025-02-27 05:46:04.002 ServerApp] Connecting to kernel 0add0df0-44f3-4322-bc1d-a44eb5e5b32a.
+[I 2025-02-27 05:46:04.003 ServerApp] Connecting to kernel 0add0df0-44f3-4322-bc1d-a44eb5e5b32a.
+[I 2025-02-27 05:46:04.025 ServerApp] Connecting to kernel 0add0df0-44f3-4322-bc1d-a44eb5e5b32a.
+[I 2025-02-27 05:46:09.017 ServerApp] Connecting to kernel 0add0df0-44f3-4322-bc1d-a44eb5e5b32a.
+[I 2025-02-27 05:46:32.826 ServerApp] Saving file at /main.ipynb
+[W 2025-02-27 05:46:32.839 ServerApp] /home/bill/code/AI/.~main.ipynb doesn't exist
+[I 2025-02-27 05:46:35.255 ServerApp] Saving file at /main.ipynb
+[I 2025-02-27 05:46:39.178 ServerApp] Connecting to kernel 0add0df0-44f3-4322-bc1d-a44eb5e5b32a.
+[I 2025-02-27 05:46:39.362 ServerApp] Connecting to kernel 0add0df0-44f3-4322-bc1d-a44eb5e5b32a.
+[I 2025-02-27 05:46:39.453 ServerApp] Kernel started: bb3ae786-002c-4687-878b-c8d4b65a7c2b
+[I 2025-02-27 05:46:39.903 ServerApp] Connecting to kernel 0add0df0-44f3-4322-bc1d-a44eb5e5b32a.
+2025-02-27 05:46:41,674 ERROR: panel.io.jupyter_server_extension - 
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.0.2 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/ipykernel_launcher.py", line 17, in <module>
+    app.launch_new_instance()
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/traitlets/config/application.py", line 1075, in launch_instance
+    app.start()
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/ipykernel/kernelapp.py", line 701, in start
+    self.io_loop.start()
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/tornado/platform/asyncio.py", line 205, in start
+    self.asyncio_loop.run_forever()
+  File "/home/bill/anaconda3/lib/python3.12/asyncio/base_events.py", line 639, in run_forever
+    self._run_once()
+  File "/home/bill/anaconda3/lib/python3.12/asyncio/base_events.py", line 1985, in _run_once
+    handle._run()
+  File "/home/bill/anaconda3/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/ipykernel/kernelbase.py", line 534, in dispatch_queue
+    await self.process_one()
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/ipykernel/kernelbase.py", line 523, in process_one
+    await dispatch(*args)
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/ipykernel/kernelbase.py", line 429, in dispatch_shell
+    await result
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/ipykernel/kernelbase.py", line 767, in execute_request
+    reply_content = await reply_content
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/ipykernel/ipkernel.py", line 429, in do_execute
+    res = shell.run_cell(
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/ipykernel/zmqshell.py", line 549, in run_cell
+    return super().run_cell(*args, **kwargs)
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/IPython/core/interactiveshell.py", line 3075, in run_cell
+    result = self._run_cell(
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/IPython/core/interactiveshell.py", line 3130, in _run_cell
+    result = runner(coro)
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/IPython/core/async_helpers.py", line 128, in _pseudo_sync_runner
+    coro.send(None)
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/IPython/core/interactiveshell.py", line 3334, in run_cell_async
+    has_raised = await self.run_ast_nodes(code_ast.body, cell_name,
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/IPython/core/interactiveshell.py", line 3517, in run_ast_nodes
+    if await self.run_code(code, result, async_=asy):
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/IPython/core/interactiveshell.py", line 3577, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "/tmp/ipykernel_655862/1685368843.py", line 10, in <module>
+    executor = PanelExecutor(app, 'eyJzZXNzaW9uX2lkIjogIk0weGxlYzhCTjJrdnZyMllvR25MZ2lWRjl1TlN4U2hMbHQzZ1NoUjB5YnNxIiwgInNlc3Npb25fZXhwaXJ5IjogMTc0MDYzNTUwMCwgIl9fYmtfX3psaWJfIjogImVOck5WRnR6MmpvUV9pc2VQN1U5R0NSZk1SbW1rNllINHJZa0xkZkFkQ1lqeTJ1allNdXVMUk9nNUw5WE1pUTlPVE45cng4OGVfMjAtNjFXUDNWU0puVUdYRlI2VF92NTFOTDBOWkFJeWtiVnJfTktTRUZQYzByU3RWUjZYZm5wTXVxU1VpZ2FuNENkNkt4RmxyWklVYVNNRXNGeTN0a3B5ei03XzF1ejlPSkhIN1g5MXJ2T3UwWnF3Q1pBalFFSXVqWW1USUFDclVnR1JsNnloSEVWTUN1U1VsWmxCTHdDV3BkZ2pPRkhEVlZUdEk1ZlE0enlxSUhnWk1zU0l1RlVmZ1dsY1puSU5wVm5sQjlZbXBLTzAwYmFteEdoakl1OFdsOW9BUmVRYXRLZzNVNjBPdzJqZS16Y2UyLTFTOWtCTENEOHpFVEhSVTRidDdHanZmbDhQUjE5YVdrcDI0QTJCTHJKMzJwenladHFFM2ZicGpZaE1TblpTNElxWXd3eGxGQ3FHdFpDRkwxTzV6V3hIWWprRVJsaHZNMktQUV9meDRTS3ZOejN2eElPcVZHVXNHWHctTHJkajNBYUVZdEx5ZG52MFJoZkNFOXFralJjQURlR0gxcnlQNXVjLVFmLW1fNnZKWk5VaTcyS3JQdW9wYkhfd1B6TGFSNHhuaWhuY21CRlM0c2dUcy04WHVYNWhqVW4xSkpocm9iMjBwR2hPdXBfMTgwajdxRWpSajNzMmNpMWJBODdSOVBxX1NIaGFDTFVnXzBuVE0zNVBzd0dZalVKM09BcU1GZlp5THc1ak5scXVucFlUcGRvOVVEeDdYUy1XUzRDZV9Td1BJdy1qZzdMNlRmN2hnVlZjUFdwWGk1d0dqemtTYkFaMUtIcE9PSEN4M1RfWVVhR2MwSHVibEM0Yi1JMlVuNE1od1Buem5UVzRXTEdidGtsLTdad3RpRlBSV2pORDhGZ25LOFd1S0RXZUJ1d3h5VEkwcHJjall2bFluYzQ0ODlPOXB0dE9QVDN5aGJ5ZVJWZW9fNFJtNWc2b1lNQkxOODFYZUoxQ1hoZzJsMG5qbjBVMlNUcVF1VDd0dTk0aEJDVC1nNk5YYThiUzRxOTBLTFdkXzFDdTk5VlpkdzNqejcxS0VLeGV3eTlxR3ZaYm1UR1llUmhjR2tVQWJFUklqYVJ5WmJrLTBTMDY3dW5HWEVPVksyZm10TUdvREJJeXJhZ3EyV256UUJQeV82SGlUUS0yQldzYk9KMGhWa1FzWDZXYVo1bDU4VlNhcFNyLV91c1pXUm5uTy1nVWtfYi02eXBIY2g1dW5fV3Q2ZjFlUW1XdFZUbjk2QXB0bUhpTHlubjZla1hsaXlkZHcifQ', '/panel-preview')
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/panel/io/jupyter_executor.py", line 98, in __init__
+    self.session, self._error = self._create_server_session()
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/panel/io/jupyter_executor.py", line 175, in _create_server_session
+    app.initialize_document(doc)
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/panel/io/application.py", line 149, in initialize_document
+    super().initialize_document(doc)
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/bokeh/application/application.py", line 190, in initialize_document
+    h.modify_document(doc)
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/panel/io/handlers.py", line 693, in modify_document
+    run_app(self, module, doc, post_run, allow_empty=True)
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/panel/io/handlers.py", line 277, in run_app
+    handler._runner.run(module, post_check)
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/panel/io/handlers.py", line 405, in run
+    exec(self._code, module.__dict__)
+  File "/home/bill/code/AI/main.ipynb", line 5, in <module>
+    "execution_count": 1,
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/pandas/__init__.py", line 26, in <module>
+    from pandas.compat import (
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/pandas/compat/__init__.py", line 27, in <module>
+    from pandas.compat.pyarrow import (
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/pandas/compat/pyarrow.py", line 8, in <module>
+    import pyarrow as pa
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/pyarrow/__init__.py", line 65, in <module>
+    import pyarrow.lib as _lib
+
+2025-02-27 05:46:41,675 ERROR: panel.io.jupyter_server_extension - ['\x1b[0;31m---------------------------------------------------------------------------\x1b[0m', '\x1b[0;31mImportError\x1b[0m                               Traceback (most recent call last)', "File \x1b[0;32m~/anaconda3/lib/python3.12/site-packages/numpy/core/_multiarray_umath.py:44\x1b[0m, in \x1b[0;36m__getattr__\x1b[0;34m(attr_name)\x1b[0m\n\x1b[1;32m     39\x1b[0m     \x1b[38;5;66;03m# Also print the message (with traceback).  This is because old versions\x1b[39;00m\n\x1b[1;32m     40\x1b[0m     \x1b[38;5;66;03m# of NumPy unfortunately set up the import to replace (and hide) the\x1b[39;00m\n\x1b[1;32m     41\x1b[0m     \x1b[38;5;66;03m# error.  The traceback shouldn't be needed, but e.g. pytest plugins\x1b[39;00m\n\x1b[1;32m     42\x1b[0m     \x1b[38;5;66;03m# seem to swallow it and we should be failing anyway...\x1b[39;00m\n\x1b[1;32m     43\x1b[0m     sys\x1b[38;5;241m.\x1b[39mstderr\x1b[38;5;241m.\x1b[39mwrite(msg \x1b[38;5;241m+\x1b[39m tb_msg)\n\x1b[0;32m---> 44\x1b[0m     \x1b[38;5;28;01mraise\x1b[39;00m \x1b[38;5;167;01mImportError\x1b[39;00m(msg)\n\x1b[1;32m     46\x1b[0m ret \x1b[38;5;241m=\x1b[39m \x1b[38;5;28mgetattr\x1b[39m(_multiarray_umath, attr_name, \x1b[38;5;28;01mNone\x1b[39;00m)\n\x1b[1;32m     47\x1b[0m \x1b[38;5;28;01mif\x1b[39;00m ret \x1b[38;5;129;01mis\x1b[39;00m \x1b[38;5;28;01mNone\x1b[39;00m:\n", "\x1b[0;31mImportError\x1b[0m: \nA module that was compiled using NumPy 1.x cannot be run in\nNumPy 2.0.2 as it may crash. To support both 1.x and 2.x\nversions of NumPy, modules must be compiled with NumPy 2.0.\nSome module may need to rebuild instead e.g. with 'pybind11>=2.12'.\n\nIf you are a user of the module, the easiest solution will be to\ndowngrade to 'numpy<2' or try to upgrade the affected module.\nWe expect that some modules will need time to support NumPy 2.\n\n"]
+2025-02-27 05:46:41,689 ERROR: panel.io.jupyter_server_extension - 
+A module that was compiled using NumPy 1.x cannot be run in
+NumPy 2.0.2 as it may crash. To support both 1.x and 2.x
+versions of NumPy, modules must be compiled with NumPy 2.0.
+Some module may need to rebuild instead e.g. with 'pybind11>=2.12'.
+
+If you are a user of the module, the easiest solution will be to
+downgrade to 'numpy<2' or try to upgrade the affected module.
+We expect that some modules will need time to support NumPy 2.
+
+Traceback (most recent call last):  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/ipykernel_launcher.py", line 17, in <module>
+    app.launch_new_instance()
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/traitlets/config/application.py", line 1075, in launch_instance
+    app.start()
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/ipykernel/kernelapp.py", line 701, in start
+    self.io_loop.start()
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/tornado/platform/asyncio.py", line 205, in start
+    self.asyncio_loop.run_forever()
+  File "/home/bill/anaconda3/lib/python3.12/asyncio/base_events.py", line 639, in run_forever
+    self._run_once()
+  File "/home/bill/anaconda3/lib/python3.12/asyncio/base_events.py", line 1985, in _run_once
+    handle._run()
+  File "/home/bill/anaconda3/lib/python3.12/asyncio/events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/ipykernel/kernelbase.py", line 534, in dispatch_queue
+    await self.process_one()
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/ipykernel/kernelbase.py", line 523, in process_one
+    await dispatch(*args)
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/ipykernel/kernelbase.py", line 429, in dispatch_shell
+    await result
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/ipykernel/kernelbase.py", line 767, in execute_request
+    reply_content = await reply_content
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/ipykernel/ipkernel.py", line 429, in do_execute
+    res = shell.run_cell(
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/ipykernel/zmqshell.py", line 549, in run_cell
+    return super().run_cell(*args, **kwargs)
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/IPython/core/interactiveshell.py", line 3075, in run_cell
+    result = self._run_cell(
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/IPython/core/interactiveshell.py", line 3130, in _run_cell
+    result = runner(coro)
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/IPython/core/async_helpers.py", line 128, in _pseudo_sync_runner
+    coro.send(None)
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/IPython/core/interactiveshell.py", line 3334, in run_cell_async
+    has_raised = await self.run_ast_nodes(code_ast.body, cell_name,
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/IPython/core/interactiveshell.py", line 3517, in run_ast_nodes
+    if await self.run_code(code, result, async_=asy):
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/IPython/core/interactiveshell.py", line 3577, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "/tmp/ipykernel_655862/1685368843.py", line 10, in <module>
+    executor = PanelExecutor(app, 'eyJzZXNzaW9uX2lkIjogIk0weGxlYzhCTjJrdnZyMllvR25MZ2lWRjl1TlN4U2hMbHQzZ1NoUjB5YnNxIiwgInNlc3Npb25fZXhwaXJ5IjogMTc0MDYzNTUwMCwgIl9fYmtfX3psaWJfIjogImVOck5WRnR6MmpvUV9pc2VQN1U5R0NSZk1SbW1rNllINHJZa0xkZkFkQ1lqeTJ1allNdXVMUk9nNUw5WE1pUTlPVE45cng4OGVfMjAtNjFXUDNWU0puVUdYRlI2VF92NTFOTDBOWkFJeWtiVnJfTktTRUZQYzByU3RWUjZYZm5wTXVxU1VpZ2FuNENkNkt4RmxyWklVYVNNRXNGeTN0a3B5ei03XzF1ejlPSkhIN1g5MXJ2T3UwWnF3Q1pBalFFSXVqWW1USUFDclVnR1JsNnloSEVWTUN1U1VsWmxCTHdDV3BkZ2pPRkhEVlZUdEk1ZlE0enlxSUhnWk1zU0l1RlVmZ1dsY1puSU5wVm5sQjlZbXBLTzAwYmFteEdoakl1OFdsOW9BUmVRYXRLZzNVNjBPdzJqZS16Y2UyLTFTOWtCTENEOHpFVEhSVTRidDdHanZmbDhQUjE5YVdrcDI0QTJCTHJKMzJwenladHFFM2ZicGpZaE1TblpTNElxWXd3eGxGQ3FHdFpDRkwxTzV6V3hIWWprRVJsaHZNMktQUV9meDRTS3ZOejN2eElPcVZHVXNHWHctTHJkajNBYUVZdEx5ZG52MFJoZkNFOXFralJjQURlR0gxcnlQNXVjLVFmLW1fNnZKWk5VaTcyS3JQdW9wYkhfd1B6TGFSNHhuaWhuY21CRlM0c2dUcy04WHVYNWhqVW4xSkpocm9iMjBwR2hPdXBfMTgwajdxRWpSajNzMmNpMWJBODdSOVBxX1NIaGFDTFVnXzBuVE0zNVBzd0dZalVKM09BcU1GZlp5THc1ak5scXVucFlUcGRvOVVEeDdYUy1XUzRDZV9Td1BJdy1qZzdMNlRmN2hnVlZjUFdwWGk1d0dqemtTYkFaMUtIcE9PSEN4M1RfWVVhR2MwSHVibEM0Yi1JMlVuNE1od1Buem5UVzRXTEdidGtsLTdad3RpRlBSV2pORDhGZ25LOFd1S0RXZUJ1d3h5VEkwcHJjall2bFluYzQ0ODlPOXB0dE9QVDN5aGJ5ZVJWZW9fNFJtNWc2b1lNQkxOODFYZUoxQ1hoZzJsMG5qbjBVMlNUcVF1VDd0dTk0aEJDVC1nNk5YYThiUzRxOTBLTFdkXzFDdTk5VlpkdzNqejcxS0VLeGV3eTlxR3ZaYm1UR1llUmhjR2tVQWJFUklqYVJ5WmJrLTBTMDY3dW5HWEVPVksyZm10TUdvREJJeXJhZ3EyV256UUJQeV82SGlUUS0yQldzYk9KMGhWa1FzWDZXYVo1bDU4VlNhcFNyLV91c1pXUm5uTy1nVWtfYi02eXBIY2g1dW5fV3Q2ZjFlUW1XdFZUbjk2QXB0bUhpTHlubjZla1hsaXlkZHcifQ', '/panel-preview')
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/panel/io/jupyter_executor.py", line 98, in __init__
+    self.session, self._error = self._create_server_session()
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/panel/io/jupyter_executor.py", line 175, in _create_server_session
+    app.initialize_document(doc)
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/panel/io/application.py", line 149, in initialize_document
+    super().initialize_document(doc)
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/bokeh/application/application.py", line 190, in initialize_document
+    h.modify_document(doc)
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/panel/io/handlers.py", line 693, in modify_document
+    run_app(self, module, doc, post_run, allow_empty=True)
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/panel/io/handlers.py", line 277, in run_app
+    handler._runner.run(module, post_check)
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/panel/io/handlers.py", line 405, in run
+    exec(self._code, module.__dict__)
+  File "/home/bill/code/AI/main.ipynb", line 5, in <module>
+    "execution_count": 1,
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/pandas/__init__.py", line 49, in <module>
+    from pandas.core.api import (
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/pandas/core/api.py", line 1, in <module>
+    from pandas._libs import (
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/pandas/_libs/__init__.py", line 17, in <module>
+    import pandas._libs.pandas_datetime  # noqa: F401 # isort: skip # type: ignore[reportUnusedImport]
+
+2025-02-27 05:46:41,690 ERROR: panel.io.jupyter_server_extension - ['\x1b[0;31m---------------------------------------------------------------------------\x1b[0m', '\x1b[0;31mImportError\x1b[0m                               Traceback (most recent call last)', "File \x1b[0;32m~/anaconda3/lib/python3.12/site-packages/numpy/core/_multiarray_umath.py:44\x1b[0m, in \x1b[0;36m__getattr__\x1b[0;34m(attr_name)\x1b[0m\n\x1b[1;32m     39\x1b[0m     \x1b[38;5;66;03m# Also print the message (with traceback).  This is because old versions\x1b[39;00m\n\x1b[1;32m     40\x1b[0m     \x1b[38;5;66;03m# of NumPy unfortunately set up the import to replace (and hide) the\x1b[39;00m\n\x1b[1;32m     41\x1b[0m     \x1b[38;5;66;03m# error.  The traceback shouldn't be needed, but e.g. pytest plugins\x1b[39;00m\n\x1b[1;32m     42\x1b[0m     \x1b[38;5;66;03m# seem to swallow it and we should be failing anyway...\x1b[39;00m\n\x1b[1;32m     43\x1b[0m     sys\x1b[38;5;241m.\x1b[39mstderr\x1b[38;5;241m.\x1b[39mwrite(msg \x1b[38;5;241m+\x1b[39m tb_msg)\n\x1b[0;32m---> 44\x1b[0m     \x1b[38;5;28;01mraise\x1b[39;00m \x1b[38;5;167;01mImportError\x1b[39;00m(msg)\n\x1b[1;32m     46\x1b[0m ret \x1b[38;5;241m=\x1b[39m \x1b[38;5;28mgetattr\x1b[39m(_multiarray_umath, attr_name, \x1b[38;5;28;01mNone\x1b[39;00m)\n\x1b[1;32m     47\x1b[0m \x1b[38;5;28;01mif\x1b[39;00m ret \x1b[38;5;129;01mis\x1b[39;00m \x1b[38;5;28;01mNone\x1b[39;00m:\n", "\x1b[0;31mImportError\x1b[0m: \nA module that was compiled using NumPy 1.x cannot be run in\nNumPy 2.0.2 as it may crash. To support both 1.x and 2.x\nversions of NumPy, modules must be compiled with NumPy 2.0.\nSome module may need to rebuild instead e.g. with 'pybind11>=2.12'.\n\nIf you are a user of the module, the easiest solution will be to\ndowngrade to 'numpy<2' or try to upgrade the affected module.\nWe expect that some modules will need time to support NumPy 2.\n\n"]
+2025-02-27 05:46:41,693 ERROR: panel.io.jupyter_server_extension - ERROR:bokeh.application.application:Error running application handler <panel.io.handlers.NotebookHandler object at 0x7f5122673650>: numpy.core.multiarray failed to import
+File '__init__.py', line 17, in <module>:
+import pandas._libs.pandas_datetime  # noqa: F401 # isort: skip # type: ignore[reportUnusedImport] Traceback (most recent call last):
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/panel/io/handlers.py", line 405, in run
+    exec(self._code, module.__dict__)
+  File "/home/bill/code/AI/main.ipynb", line 5, in <module>
+    "execution_count": 1,
+    ^^^^^^^^^^^^^^^^^^^
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/pandas/__init__.py", line 49, in <module>
+    from pandas.core.api import (
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/pandas/core/api.py", line 1, in <module>
+    from pandas._libs import (
+  File "/home/bill/anaconda3/lib/python3.12/site-packages/pandas/_libs/__init__.py", line 17, in <module>
+    import pandas._libs.pandas_datetime  # noqa: F401 # isort: skip # type: ignore[reportUnusedImport]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: numpy.core.multiarray failed to import
+ 
+
+[I 2025-02-27 05:46:41.694 ServerApp] Kernel shutdown: bb3ae786-002c-4687-878b-c8d4b65a7c2b
+[I 2025-02-27 05:47:23.508 ServerApp] Saving file at /main.ipynb
+[I 2025-02-27 05:49:15.724 ServerApp] Starting buffering for 0add0df0-44f3-4322-bc1d-a44eb5e5b32a:53fdcd33-08e7-491b-8d6b-5636d204348f
+[I 2025-02-27 05:49:17.250 ServerApp] Connecting to kernel 0add0df0-44f3-4322-bc1d-a44eb5e5b32a.
+[I 2025-02-27 05:49:17.492 ServerApp] Starting buffering for 0add0df0-44f3-4322-bc1d-a44eb5e5b32a:d9c584f3-c3e2-49ab-86ed-9eaef0a73f20
+[I 2025-02-27 05:49:17.917 ServerApp] Connecting to kernel 0add0df0-44f3-4322-bc1d-a44eb5e5b32a.
+[I 2025-02-27 05:49:24.255 ServerApp] Kernel started: 6156e183-0ded-46d6-b721-7928cb925a6c
+[I 2025-02-27 05:49:24.256 ServerApp] Kernel shutdown: 0add0df0-44f3-4322-bc1d-a44eb5e5b32a
+[I 2025-02-27 05:49:24.926 ServerApp] Connecting to kernel 6156e183-0ded-46d6-b721-7928cb925a6c.
+[I 2025-02-27 05:49:24.998 ServerApp] Connecting to kernel 6156e183-0ded-46d6-b721-7928cb925a6c.
+2025-02-27 05:49:29.410657: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-02-27 05:49:29.414015: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-02-27 05:49:29.423458: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1740635369.438787  656093 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1740635369.443324  656093 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-02-27 05:49:29.461332: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-02-27 05:50:03.383059: E external/local_xla/xla/stream_executor/cuda/cuda_driver.cc:152] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+2025-02-27 05:50:09.186511: W external/local_xla/xla/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 271581184 exceeds 10% of free system memory.
+2025-02-27 05:50:09.251472: W external/local_xla/xla/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 271581184 exceeds 10% of free system memory.
+2025-02-27 05:50:09.316090: W external/local_xla/xla/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 271581184 exceeds 10% of free system memory.
+2025-02-27 05:50:11.150463: W external/local_xla/xla/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 271581184 exceeds 10% of free system memory.
+2025-02-27 05:50:11.150582: W external/local_xla/xla/tsl/framework/cpu_allocator_impl.cc:83] Allocation of 271581184 exceeds 10% of free system memory.
+[I 2025-02-27 05:51:18.249 ServerApp] Saving file at /main.ipynb
+[I 2025-02-27 05:53:19.753 ServerApp] Saving file at /main.ipynb
+[I 2025-02-27 05:55:23.496 ServerApp] Saving file at /main.ipynb
+[I 2025-02-27 05:57:25.104 ServerApp] Saving file at /main.ipynb
+[I 2025-02-27 05:58:26.282 ServerApp] Kernel interrupted: 6156e183-0ded-46d6-b721-7928cb925a6c
+[I 2025-02-27 05:58:44.862 ServerApp] Saving file at /main.ipynb
+[W 2025-02-27 06:01:24.928 ServerApp] WebSocket ping timeout after 119936 ms.
+[W 2025-02-27 06:01:25.937 ServerApp] 
+[W 2025-02-27 06:01:27.109 ServerApp] 
+[W 2025-02-27 06:01:28.278 ServerApp] 
+[W 2025-02-27 06:01:29.464 ServerApp] 
+[I 2025-02-27 06:01:29.930 ServerApp] Starting buffering for 6156e183-0ded-46d6-b721-7928cb925a6c:0b26968b-659d-4058-93a1-4ff974effe12
+[I 2025-02-27 06:07:41.411 ServerApp] Saving file at /main.ipynb
+[I 2025-02-27 06:09:44.175 ServerApp] Kernel started: a9807829-246e-4453-bdc7-6448ffd05548
+[I 2025-02-27 06:09:44.176 ServerApp] Discarding 417 buffered messages for 6156e183-0ded-46d6-b721-7928cb925a6c:0b26968b-659d-4058-93a1-4ff974effe12
+[I 2025-02-27 06:09:44.177 ServerApp] Kernel shutdown: 6156e183-0ded-46d6-b721-7928cb925a6c
+[E 2025-02-27 06:09:45.767 ServerApp] Uncaught exception POST /api/kernels/6156e183-0ded-46d6-b721-7928cb925a6c/interrupt?1740636585654 (127.0.0.1)
+    HTTPServerRequest(protocol='http', host='localhost:8888', method='POST', uri='/api/kernels/6156e183-0ded-46d6-b721-7928cb925a6c/interrupt?1740636585654', version='HTTP/1.1', remote_ip='127.0.0.1')
+    Traceback (most recent call last):
+      File "/home/bill/anaconda3/lib/python3.12/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/bill/anaconda3/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/bill/anaconda3/lib/python3.12/site-packages/jupyter_server/services/kernels/handlers.py", line 97, in post
+        await ensure_async(km.interrupt_kernel(kernel_id))  # type:ignore[func-returns-value]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/bill/anaconda3/lib/python3.12/site-packages/jupyter_client/multikernelmanager.py", line 395, in interrupt_kernel
+        raise RuntimeError(msg)
+    RuntimeError: Kernel is in a pending state. Cannot interrupt.
+[W 2025-02-27 06:09:45.772 ServerApp] wrote error: 'Unhandled error'
+    Traceback (most recent call last):
+      File "/home/bill/anaconda3/lib/python3.12/site-packages/tornado/web.py", line 1790, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/home/bill/anaconda3/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/home/bill/anaconda3/lib/python3.12/site-packages/jupyter_server/services/kernels/handlers.py", line 97, in post
+        await ensure_async(km.interrupt_kernel(kernel_id))  # type:ignore[func-returns-value]
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+      File "/home/bill/anaconda3/lib/python3.12/site-packages/jupyter_client/multikernelmanager.py", line 395, in interrupt_kernel
+        raise RuntimeError(msg)
+    RuntimeError: Kernel is in a pending state. Cannot interrupt.
+[E 2025-02-27 06:09:45.772 ServerApp] {
+      "Host": "localhost:8888",
+      "Accept": "*/*",
+      "Referer": "http://localhost:8888/notebooks/main.ipynb",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Safari/605.1.15"
+    }
+[E 2025-02-27 06:09:45.773 ServerApp] 500 POST /api/kernels/6156e183-0ded-46d6-b721-7928cb925a6c/interrupt?1740636585654 (6fc674be6ca64f7595dab8263033a486@127.0.0.1) 6.12ms referer=http://localhost:8888/notebooks/main.ipynb
+[I 2025-02-27 06:09:49.189 ServerApp] Kernel interrupted: a9807829-246e-4453-bdc7-6448ffd05548
+[I 2025-02-27 06:09:53.344 ServerApp] Kernel restarted: a9807829-246e-4453-bdc7-6448ffd05548
+[I 2025-02-27 06:10:47.327 ServerApp] Saving file at /main.ipynb
+[I 2025-02-27 06:10:52.925 ServerApp] Saving file at /main.ipynb
+[I 2025-02-27 06:11:13.746 ServerApp] Kernel interrupted: a9807829-246e-4453-bdc7-6448ffd05548
+[I 2025-02-27 06:11:14.443 ServerApp] Kernel interrupted: a9807829-246e-4453-bdc7-6448ffd05548
+[I 2025-02-27 06:11:14.591 ServerApp] Kernel interrupted: a9807829-246e-4453-bdc7-6448ffd05548
+[I 2025-02-27 06:11:14.910 ServerApp] Kernel interrupted: a9807829-246e-4453-bdc7-6448ffd05548
+[I 2025-02-27 06:11:22.279 ServerApp] Saving file at /main.ipynb
+[I 2025-02-27 06:11:27.628 ServerApp] Kernel started: 6a347800-9f55-4bfe-bb6c-99b59b41bb2e
+2025-02-27 06:11:28,424 ERROR: panel.io.jupyter_server_extension - ['\x1b[0;31m---------------------------------------------------------------------------\x1b[0m', '\x1b[0;31mModuleNotFoundError\x1b[0m                       Traceback (most recent call last)', "Cell \x1b[0;32mIn[1], line 9\x1b[0m\n\x1b[1;32m      6\x1b[0m os\x1b[38;5;241m.\x1b[39mchdir(\x1b[38;5;28mstr\x1b[39m(pathlib\x1b[38;5;241m.\x1b[39mPath(app)\x1b[38;5;241m.\x1b[39mparent))\n\x1b[1;32m      7\x1b[0m sys\x1b[38;5;241m.\x1b[39mpath \x1b[38;5;241m=\x1b[39m [os\x1b[38;5;241m.\x1b[39mgetcwd()] \x1b[38;5;241m+\x1b[39m sys\x1b[38;5;241m.\x1b[39mpath\n\x1b[0;32m----> 9\x1b[0m \x1b[38;5;28;01mfrom\x1b[39;00m\x1b[38;5;250m \x1b[39m\x1b[38;5;21;01mpanel\x1b[39;00m\x1b[38;5;21;01m.\x1b[39;00m\x1b[38;5;21;01mio\x1b[39;00m\x1b[38;5;21;01m.\x1b[39;00m\x1b[38;5;21;01mjupyter_executor\x1b[39;00m\x1b[38;5;250m \x1b[39m\x1b[38;5;28;01mimport\x1b[39;00m PanelExecutor\n\x1b[1;32m     10\x1b[0m executor \x1b[38;5;241m=\x1b[39m PanelExecutor(app, \x1b[38;5;124m'\x1b[39m\x1b[38;5;124meyJzZXNzaW9uX2lkIjogIjExUWNveEhySFpYV2t4TlhSZTlvU1hVWmNPQjVqbThaYmplZDQzeXc3Wko0IiwgInNlc3Npb25fZXhwaXJ5IjogMTc0MDYzNjk4OCwgIl9fYmtfX3psaWJfIjogImVOck5WRnR6MmpvUV9pc2VQN1U5R0NSZk1SbW1rNllINHJZa0xkZkFkQ1lqeTJ1allNdXVMUk9nNUw5WE1pUTlPVE45cng4OGVfMjAtNjFXUDNWU0puVUdYRlI2VF92NTFOTDBOWkFJeWtiVnJfTktTRUZQYzByU3RWUjZYZm5wTXVxU1VpZ2FuNENkNkt4RmxyWklVYVNNRXNGeTN0a3B5ei03XzF1ejlPSkhIN1g5MXJ2T3UwWnF3Q1pBalFFSXVqWW1USUFDclVnR1JsNnloSEVWTUN1U1VsWmxCTHdDV3BkZ2pPRkhEVlZUdEk1ZlE0enlxSUhnWk1zU0l1RlVmZ1dsY1puSU5wVm5sQjlZbXBLTzAwYmFteEdoakl1OFdsOW9BUmVRYXRLZzNVNjBPdzJqZS16Y2UyLTFTOWtCTENEOHpFVEhSVTRidDdHanZmbDhQUjE5YVdrcDI0QTJCTHJKMzJwenladHFFM2ZicGpZaE1TblpTNElxWXd3eGxGQ3FHdFpDRkwxTzV6V3hIWWprRVJsaHZNMktQUV9meDRTS3ZOejN2eElPcVZHVXNHWHctTHJkajNBYUVZdEx5ZG52MFJoZkNFOXFralJjQURlR0gxcnlQNXVjLVFmLW1fNnZKWk5VaTcyS3JQdW9wYkhfd1B6TGFSNHhuaWhuY21CRlM0c2dUcy04WHVYNWhqVW4xSkpocm9iMjBwR2hPdXBfMTgwajdxRWpSajNzMmNpMWJBODdSOVBxX1NIaGFDTFVnXzBuVE0zNVBzd0dZalVKM09BcU1GZlp5THc1ak5scXVucFlUcGRvOVVEeDdYUy1XUzRDZV9Td1BJdy1qZzdMNlRmN2hnVlZjUFdwWGk1d0dqemtTYkFaMUtIcE9PSEN4M1RfWVVhR2MwSHVibEM0Yi1JMlVuNE1od1Buem5UVzRXTEdidGtsLTdad3RpRlBSV2pORDhGZ25LOFd1S0RXZUJ1d3h5VEkwcHJjall2bFluYzQ0ODlPOXB0dE9QVDN5aGJ5ZVJWZW9fNFJtNWc2b1lNQkxOODFYZUoxQ1hoZzJsMG5qbjBVMlNUcVF1VDd0dTk0aEJDVC1nNk5YYThiUzRxOTBLTFdkXzFDdTk5VlpkdzNqejcxS0VLeGV3eTlxR3ZaYm1UR1llUmhjR2tVQWJFUklqYVJ5WmJrLTBTMDY3dW5HWEVPVksyZm10TUdvREJJeXJhZ3EyV256UUJQeV82SGlUUS0yQldzYk9KMGhWa1FzWDZXYVo1bDU4VlNhcFNyLV91c1pXUm5uTy1nVWtfYi02eXBIY2g1dW5fV3Q2ZjFlUW1XdFZUbjk2QXB0bUhpTHlubjZla1hsaXlkZHcifQ\x1b[39m\x1b[38;5;124m'\x1b[39m, \x1b[38;5;124m'\x1b[39m\x1b[38;5;124m/panel-preview\x1b[39m\x1b[38;5;124m'\x1b[39m)\n\x1b[1;32m     11\x1b[0m executor\x1b[38;5;241m.\x1b[39mrender()\n", "\x1b[0;31mModuleNotFoundError\x1b[0m: No module named 'panel'"]
+[I 2025-02-27 06:12:32.365 ServerApp] Connecting to kernel a9807829-246e-4453-bdc7-6448ffd05548.
+[I 2025-02-27 06:12:32.748 ServerApp] Connecting to kernel a9807829-246e-4453-bdc7-6448ffd05548.
+2025-02-27 06:12:33.606718: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-02-27 06:12:33.610673: I external/local_xla/xla/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-02-27 06:12:33.621361: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:477] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+E0000 00:00:1740636753.638274  658432 cuda_dnn.cc:8310] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+E0000 00:00:1740636753.643467  658432 cuda_blas.cc:1418] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-02-27 06:12:33.663068: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+[I 2025-02-27 06:12:41.297 ServerApp] Saving file at /main.ipynb
+[I 2025-02-27 06:12:53.750 ServerApp] Connecting to kernel a9807829-246e-4453-bdc7-6448ffd05548.
+[I 2025-02-27 06:13:00.637 ServerApp] Connecting to kernel a9807829-246e-4453-bdc7-6448ffd05548.
+[I 2025-02-27 06:13:11.505 ServerApp] Connecting to kernel a9807829-246e-4453-bdc7-6448ffd05548.
+2025-02-27 06:13:17.105033: E external/local_xla/xla/stream_executor/cuda/cuda_driver.cc:152] failed call to cuInit: INTERNAL: CUDA error: Failed call to cuInit: UNKNOWN ERROR (303)
+[I 2025-02-27 06:14:08.439 ServerApp] Connecting to kernel a9807829-246e-4453-bdc7-6448ffd05548.
+[I 2025-02-27 06:14:09.233 ServerApp] Connecting to kernel a9807829-246e-4453-bdc7-6448ffd05548.
+[I 2025-02-27 06:14:10.500 ServerApp] Connecting to kernel a9807829-246e-4453-bdc7-6448ffd05548.
+[I 2025-02-27 06:14:11.194 ServerApp] Connecting to kernel a9807829-246e-4453-bdc7-6448ffd05548.
+[I 2025-02-27 06:14:12.271 ServerApp] Starting buffering for a9807829-246e-4453-bdc7-6448ffd05548:135b6239-8b11-45d0-840f-6c625e9bd3d8
+[I 2025-02-27 06:14:36.081 ServerApp] Connecting to kernel a9807829-246e-4453-bdc7-6448ffd05548.
+[I 2025-02-27 06:14:36.081 ServerApp] Discarding 11 buffered messages for a9807829-246e-4453-bdc7-6448ffd05548:135b6239-8b11-45d0-840f-6c625e9bd3d8
+[I 2025-02-27 06:14:36.671 ServerApp] Connecting to kernel a9807829-246e-4453-bdc7-6448ffd05548.
+[I 2025-02-27 06:15:01.758 ServerApp] Connecting to kernel a9807829-246e-4453-bdc7-6448ffd05548.
+[I 2025-02-27 06:15:36.523 ServerApp] Starting buffering for a9807829-246e-4453-bdc7-6448ffd05548:416d4c4f-9dbe-4a73-9c26-6001b0105d12
+[W 2025-02-27 06:15:56.210 ServerApp] Notebook main.ipynb is not trusted
+[I 2025-02-27 06:15:56.295 ServerApp] Connecting to kernel a9807829-246e-4453-bdc7-6448ffd05548.
+[I 2025-02-27 06:15:56.297 ServerApp] Discarding 7 buffered messages for a9807829-246e-4453-bdc7-6448ffd05548:416d4c4f-9dbe-4a73-9c26-6001b0105d12
+[I 2025-02-27 06:15:56.925 ServerApp] Connecting to kernel a9807829-246e-4453-bdc7-6448ffd05548.
+[I 2025-02-27 06:15:58.159 ServerApp] Starting buffering for a9807829-246e-4453-bdc7-6448ffd05548:0e1b6575-a18c-4bde-adc6-59978168ec4a
+[W 2025-02-27 06:15:58.876 ServerApp] Notebook main.ipynb is not trusted
+[I 2025-02-27 06:15:59.038 ServerApp] Connecting to kernel a9807829-246e-4453-bdc7-6448ffd05548.
+[I 2025-02-27 06:15:59.566 ServerApp] Connecting to kernel a9807829-246e-4453-bdc7-6448ffd05548.
+[I 2025-02-27 06:16:06.365 ServerApp] Connecting to kernel a9807829-246e-4453-bdc7-6448ffd05548.
+[C 2025-02-27 06:16:31.806 ServerApp] received signal 15, stopping
+[I 2025-02-27 06:16:31.807 ServerApp] Shutting down 6 extensions
+[I 2025-02-27 06:16:31.807 ServerApp] Shutting down 2 kernels
+[I 2025-02-27 06:16:31.807 ServerApp] Kernel shutdown: 6a347800-9f55-4bfe-bb6c-99b59b41bb2e
+[I 2025-02-27 06:16:31.808 ServerApp] Kernel shutdown: a9807829-246e-4453-bdc7-6448ffd05548
+[I 2025-02-27 06:16:31.810 ServerApp] Kernel shutdown: 6a347800-9f55-4bfe-bb6c-99b59b41bb2e
